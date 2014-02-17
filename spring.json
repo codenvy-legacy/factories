@@ -1,0 +1,15 @@
+{
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/04/0f/7f/workspacegcpv6cdxy1q34n1i/Sample-Spring",
+   "idcommit":"565e68d4196f04d1fe7d1e7a1fe4c479a2282719",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"Sample-Spring-Project",
+      "ptype":"Spring"
+   },
+   "orgid":"accountaldw7azaqgc7qash",
+   "wname":"codenvy-factories",
+   "image":"spring.jpg",
+   "style":"Advanced"
+}
