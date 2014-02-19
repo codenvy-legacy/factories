@@ -2,6 +2,7 @@
 SETLOCAL
 SET CODENVY_CLI=c:\codenvy\cli\codenvy.bat
 SET CODENVY_FACTORY=c:\codenvy\factories\java\factories.bat
+SET HOME=c:\codenvy\factories
 
 if "%1"=="" goto blank
 
@@ -15,6 +16,9 @@ REM TODO: Only run this loop on .JSON files that are newer than any generated HT
 FOR %%A in (%1) DO (
 	cmd /c %CODENVY_CLI% remote factory:create --in %%A --encoded --rel self > %%~nA.endpoint
 	cmd /c %CODENVY_FACTORY% %%~nA
+	move %%~nA.endpoint %HOME%\generated\
+	move %%~nA.factory %HOME%\generated\
+	move %%~nA.html %HOME%\generated\
 	)
 GOTO end
 
