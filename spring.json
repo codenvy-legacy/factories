@@ -8,7 +8,6 @@
       "ptype":"Spring"
    },
    "orgid":"accountya9vidwqbifhqd9p",
-   "wname":"codenvy-factories",
-   "image":"images/spring.jpg",
-   "style":"Advanced"
+   "image":"http://factories.codenvy-stg.com/images/spring.jpg",
+   "style":"Advanced with Counter"
 }

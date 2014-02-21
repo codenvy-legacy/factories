@@ -7,7 +7,7 @@ SET HOME=c:\codenvy\factories
 if "%1"=="" goto blank
 
 REM Generate an updated Codenvy token
-cmd /c %CODENVY_CLI% auth --user factories@codenvy.com --password VKf2MY5SaLo --newToken --save
+cmd /c %CODENVY_CLI% auth --user factories@codenvy.com --password %FACTORY_PASSWORD% --newToken --save
 
 REM Each JSON file, generate a .endpoint file using 'codenvy remote factory:create' command.
 REM Take the new .endpoint file and execute 'factories.bat' command.  
