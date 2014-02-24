@@ -10,6 +10,6 @@
       "ptype":"Rails"
    },
    "wname":"codenvy-factories",
-   "image":"ruby.jpg",
+   "image":"http://factories.codenvy-stg.com/images/spring.jpg",
    "style":"Advanced"
 }

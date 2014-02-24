@@ -10,6 +10,6 @@
       "ptype":"Python"
    },
    "wname":"codenvy-factories",
-   "image":"python.jpg",
+   "image":"http://factories.codenvy-stg.com/images/spring.jpg",
    "style":"Advanced"
 }

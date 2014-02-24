@@ -10,6 +10,6 @@
       "ptype":"PHP"
    },
    "wname":"codenvy-factories",
-   "image":"php.jpg",
+   "image":"http://factories.codenvy-stg.com/images/spring.jpg",
    "style":"Advanced"
 }
