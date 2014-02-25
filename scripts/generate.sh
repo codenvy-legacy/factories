@@ -1,8 +1,8 @@
 #!/bin/bash
 
+CODENVY_HOME=`pwd`
 CODENVY_CLI=~/codenvy/cli/codenvy
-CODENVY_FACTORY=~/codenvy/factories/java/factories.sh
-CODENVY_HOME=~/codenvy/factories
+CODENVY_FACTORY=~$CODENVY_HOME/java/factories.sh
 [ -z "${FACTORIES_CONFIG}" ]  && FACTORIES_CONFIG=~/.codenvy_factorygen
 
 if [ -s $FACTORIES_CONFIG ]; then
@@ -33,6 +33,7 @@ cd $CODENVY_HOME/jsons
 s3cmd -c $S3CONFIG ls $S3BUCKET | grep ".json" | awk '{ print $4 }' | xargs -n 1 s3cmd -c $S3CONFIG get
 
 
+
 agit=( $CODENVY_HOME/*.json )
 as3=( $CODENVY_HOME/jsons/*.json )
 
@@ -48,15 +49,20 @@ echo ${as3[@]} # will dump all elements of the array
 # TODO: Only run this loop on .JSON files that are newer than any generated HTML or .factory files.
 cd $CODENVY_HOME
 
+# sync images to S3 BEFORE generating
+s3cmd -c $S3CONFIG sync  $CODENVY_HOME/images $S3BUCKET
+
 for A in ${agit[@]}
 do 
 # compare sha1 sum of s3 and git *.json
 echo $A
 SHA1G=`openssl sha1 $A | awk '{print $2}'`
 echo $SHA1G
+# basename
 BN=${A##*/}
 SHA1S3=`openssl sha1 $CODENVY_HOME/jsons/$BN | awk '{print $2}'`
 echo $SHA1S3
+# baseneme suffixless
 BNSL=${BN%.json}
 
 # generate factory and endpoint, html files if SHA1 sum differ
@@ -71,7 +77,6 @@ fi
 
 done
 
-# sync to S3
+# sync to S3 json and generated content
 s3cmd -c $S3CONFIG sync  $CODENVY_HOME/generated $S3BUCKET
-s3cmd -c $S3CONFIG sync  $CODENVY_HOME/images $S3BUCKET
 s3cmd -c $S3CONFIG sync  $CODENVY_HOME/*.json $S3BUCKET/
