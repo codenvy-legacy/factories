@@ -32,7 +32,7 @@
   <name>Codenvy Commons :: Factories</name>
   <url>http://maven.apache.org</url>
   <properties>
-    <codenvy-commons.version>0.14.0-SNAPSHOT</codenvy-commons.version>
+    <codenvy-commons.version>0.14.0</codenvy-commons.version>
   </properties>
   <dependencies>
     <dependency>

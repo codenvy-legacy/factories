@@ -2,7 +2,7 @@
 
 CODENVY_HOME=`pwd`
 CODENVY_CLI=~/codenvy/cli/codenvy
-CODENVY_FACTORY=~$CODENVY_HOME/java/factories.sh
+CODENVY_FACTORY=$CODENVY_HOME/java/factories.sh
 [ -z "${FACTORIES_CONFIG}" ]  && FACTORIES_CONFIG=~/.codenvy_factorygen
 
 if [ -s $FACTORIES_CONFIG ]; then
@@ -31,17 +31,7 @@ mkdir -p $CODENVY_HOME/jsons
 #s3cmd -c $S3CONFIG sync $S3BUCKET/* $CODENVY_HOME/jsons
 cd $CODENVY_HOME/jsons
 s3cmd -c $S3CONFIG ls $S3BUCKET | grep ".json" | awk '{ print $4 }' | xargs -n 1 s3cmd -c $S3CONFIG get
-
-
-
 agit=( $CODENVY_HOME/*.json )
-as3=( $CODENVY_HOME/jsons/*.json )
-
-echo ${#agit[@]} # will echo number of elements in array
-echo ${#as3[@]} # will echo number of elements in array
-
-echo ${agit[@]} # will dump all elements of the array
-echo ${as3[@]} # will dump all elements of the array
 
 # Each JSON file, generate a .endpoint file using 'codenvy remote factory:create' command.
 # Take the new .endpoint file and execute 'factories.bat' command.
@@ -67,12 +57,17 @@ BNSL=${BN%.json}
 
 # generate factory and endpoint, html files if SHA1 sum differ
 if [[ $SHA1G != $SHA1S3 ]]; then
-	$CODENVY_CLI remote factory:create --in $BNSL.json --encoded --rel self > $BNSL.endpoint
+    $CODENVY_CLI remote factory:create --in $BNSL.json --encoded --rel self > $BNSL.endpoint
+    # check if factory created OK
+    if grep -q http "$BNSL.endpoint" ; then
 	$CODENVY_FACTORY $BNSL
 	mv $BNSL.endpoint $CODENVY_HOME/generated/
 	mv $BNSL.factory $CODENVY_HOME/generated/
 	mv $BNSL.html $CODENVY_HOME/generated/
-#echo "NON EQVIALENT"
+    else 
+	echo "$BNSL.json NOT OK, exiting"
+	exit 2
+    fi
 fi
 
 done
