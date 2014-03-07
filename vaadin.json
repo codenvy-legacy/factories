@@ -1,8 +1,8 @@
 {
    "v":"1.1",
    "vcs":"git",
-   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/backbone",
-   "commitid":"0173e044b6a859824daf2df190acbdf4c0b0bc71",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/vaadin_app",
+   "commitid":"6622235d80128a652a0f2665bd4ed06bd584a329",
    "action":"openproject",
    "description":"",
    "contactmail":"factories@codenvy.com",
@@ -11,8 +11,8 @@
    "orgid":"accountya9vidwqbifhqd9p",
    "affiliateid":"",
    "projectattributes":{
-      "pname":"backbone",
-      "ptype":"JavaScript"
+      "pname":"Vaadin",
+      "ptype":"Servlet/JSP"
    },
    "image":"http://factories.codenvy-stg.com/images/vaadin.jpg",
    "style":"Advanced"
