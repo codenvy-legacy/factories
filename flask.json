@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/Flask-SQLAlchemy",
+    "commitid": "24ca4d894894409e29c5bd1304481320ca60aa27",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "Flask-SQLAlchemy",
+        "ptype": "Python"
+    },
+    "image":"http://factories.codenvy-stg.com/images/flask.jpg",
+    "style":"Advanced"
+}
