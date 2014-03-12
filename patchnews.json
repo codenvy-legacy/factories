@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/PatchNewsSample",
+    "commitid": "50359e7f6d2abcae5aa7c63201c10a669a95a565",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "PatchNewsSample",
+        "ptype": "Servlet/JSP"
+    },
+    "image":"http://factories.codenvy-stg.com/images/patchnews.jpg",
+    "style":"Advanced"
+}

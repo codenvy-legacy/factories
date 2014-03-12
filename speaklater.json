@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/speaklater",
+    "commitid": "cfd004f7b712422621368375bbb8a81e79a8a78a",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "speaklater",
+        "ptype": "Python"
+    },
+    "image":"http://factories.codenvy-stg.com/images/speaklater.jpg",
+    "style":"Advanced"
+}

@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/Sample-JS",
+    "commitid": "a4a428989b29a67aa6df74394ae5c1687ddee09d",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "Sample-JS",
+        "ptype": "JavaScript"
+    },
+    "image":"http://factories.codenvy-stg.com/images/javascript.jpg",
+    "style":"Advanced"
+}

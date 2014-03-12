@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/EasyPostSample",
+    "commitid": "734efb243e013c29639f4f006e2a8942cb040cc4",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "EasyPostSample",
+        "ptype": "Servlet/JSP"
+    },
+    "image":"http://factories.codenvy-stg.com/images/easypost.jpg",
+    "style":"Advanced"
+}
