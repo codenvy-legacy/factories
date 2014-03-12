@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/flask",
+    "commitid": "79299b438c1769dbd22d42720d9a09aeb763aded",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "flask",
+        "ptype": "Python"
+    },
+    "image":"http://factories.codenvy-stg.com/images/dojo.jpg",
+    "style":"Advanced"
+}
