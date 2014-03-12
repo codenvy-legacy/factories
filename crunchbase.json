@@ -1,4 +1,24 @@
 {
+<<<<<<< HEAD
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/CrunchBaseSample",
+   "commitid":"9c11713a82edece4db01eb5f5c04fc69e52f0709",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"CrunchBaseSample",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/crunchbase.jpg",
+   "style":"Advanced"
+}
+=======
     "v": "1.1",
     "vcs": "git",
     "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/CrunchBaseSample",
@@ -17,3 +37,4 @@
     "image":"http://factories.codenvy-stg.com/images/crunchbase.jpg",
     "style":"Advanced"
 }
+>>>>>>> 6969c2ee7be42f9b1f5f809206fb6188353b754c

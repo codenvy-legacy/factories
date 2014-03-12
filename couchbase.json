@@ -1,4 +1,24 @@
 {
+<<<<<<< HEAD
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/CouchBaseSample",
+   "commitid":"588ba17b83165901f89329693ebb2f981a75d01c",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"CouchBaseSample",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/couchbase.jpg",
+   "style":"Advanced"
+}
+=======
     "v": "1.1",
     "vcs": "git",
     "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/CouchBaseSample",
@@ -17,3 +37,4 @@
     "image":"http://factories.codenvy-stg.com/images/couchbase.jpg",
     "style":"Advanced"
 }
+>>>>>>> 6969c2ee7be42f9b1f5f809206fb6188353b754c
