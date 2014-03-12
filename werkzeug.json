@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
    "v":"1.1",
    "vcs":"git",
    "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/werkzeug",
@@ -17,3 +18,23 @@
    "image":"http://factories.codenvy.com/images/werkzeug.jpg",
    "style":"Advanced"
 }
+=======
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/werkzeug",
+    "commitid": "e08ea39c390e5698bf23669b25ddaf4691e79c83",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "werkzeug",
+        "ptype": "Python"
+    },
+    "image":"http://factories.codenvy-stg.com/images/werkzeug.jpg",
+    "style":"Advanced"
+}
+>>>>>>> 6969c2ee7be42f9b1f5f809206fb6188353b754c

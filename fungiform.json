@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/fungiform",
+    "commitid": "fdd2e1d76c9c0082fb4d34506fa5aa87f9a6be3f",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "fungiform",
+        "ptype": "Python"
+    },
+    "image":"http://factories.codenvy-stg.com/images/fungiform.jpg",
+    "style":"Advanced"
+}

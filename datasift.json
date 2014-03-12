@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/DataSift-web_1",
+    "commitid": "cd50477023530465471e7c06913f0bff9a0c1ee1",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "DataSift-web_1",
+        "ptype": "Servlet/JSP"
+    },
+    "image":"http://factories.codenvy-stg.com/images/datasift.jpg",
+    "style":"Advanced"
+}

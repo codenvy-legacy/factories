@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
    "v":"1.1",
    "vcs":"git",
    "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/ItextSample",
@@ -17,3 +18,23 @@
    "image":"http://factories.codenvy.com/images/itext.jpg",
    "style":"Advanced"
 }
+=======
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/ItextSample",
+    "commitid": "4dd5e9500ab03c465ff721611fff25cd5bff4732",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "ItextSample",
+        "ptype": "Servlet/JSP"
+    },
+    "image":"http://factories.codenvy-stg.com/images/itext.jpg",
+    "style":"Advanced"
+}
+>>>>>>> 6969c2ee7be42f9b1f5f809206fb6188353b754c

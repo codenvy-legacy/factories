@@ -1,0 +1,19 @@
+{
+    "v": "1.1",
+    "vcs": "git",
+    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/PagerDutySample",
+    "commitid": "cee1ef060bb4a59f16bca18690d89ba3c7ffd7cd",
+    "action": "openproject",
+    "description": "",
+    "contactmail": "factories@codenvy.com",
+    "author": "Codenvy Factories",
+    "openfile": "",
+    "orgid":"accountya9vidwqbifhqd9p",
+    "affiliateid": "",
+    "projectattributes": {
+        "pname": "PagerDutySample",
+        "ptype": "Servlet/JSP"
+    },
+    "image":"http://factories.codenvy-stg.com/images/pagerduty.jpg",
+    "style":"Advanced"
+}
