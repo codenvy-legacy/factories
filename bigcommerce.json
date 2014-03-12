@@ -14,6 +14,6 @@
         "pname": "BigCommerceAPI-web",
         "ptype": "Servlet/JSP"
     },
-    "image":"http://factories.codenvy-stg.com/images/bigcommerce.jpg",
+    "image":"http://factories.codenvy.com/images/bigcommerce.jpg",
     "style":"Advanced"
 }
