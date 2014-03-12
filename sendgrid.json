@@ -1,24 +1,3 @@
-{
-<<<<<<< HEAD
-   "v":"1.1",
-   "vcs":"git",
-   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/SendGrid-web",
-   "commitid":"c1cef53a7d18f68a7106a65434f210c8978b36bb",
-   "action":"openproject",
-   "description":"",
-   "contactmail":"factories@codenvy.com",
-   "author":"Codenvy Factories",
-   "openfile":"",
-   "orgid":"accountya9vidwqbifhqd9p",
-   "affiliateid":"",
-   "projectattributes":{
-      "pname":"SendGrid-web",
-      "ptype":"Servlet/JSP"
-   },
-   "image":"http://factories.codenvy.com/images/sendgrid.jpg",
-   "style":"Advanced"
-}
-=======
     "v": "1.1",
     "vcs": "git",
     "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/SendGrid-web",
@@ -37,4 +16,3 @@
     "image":"http://factories.codenvy-stg.com/images/sendgrid.jpg",
     "style":"Advanced"
 }
->>>>>>> 6969c2ee7be42f9b1f5f809206fb6188353b754c
