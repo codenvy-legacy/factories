@@ -10,6 +10,6 @@
       "ptype":"nodejs"
    },
    "wname":"codenvy-factories",
-   "image":"http://factories.codenvy-stg.com/images/spring.jpg",
+   "image":"http://factories.codenvy-stg.com/images/node.jpg",
    "style":"Advanced"
 }

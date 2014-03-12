@@ -14,6 +14,6 @@
         "pname": "Json-web",
         "ptype": "Servlet/JSP"
     },
-    "image":"http://factories.codenvy-stg.com/images/jsonweb.jpg",
+    "image":"http://factories.codenvy-stg.com/images/json.jpg",
     "style":"Advanced"
 }
