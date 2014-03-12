@@ -1,0 +1,19 @@
+{
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/jersey",
+   "commitid":"5ebd773ca81318c8ab02a997957739d6cc09aa93",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"jersey",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/jersey-restful.jpg",
+   "style":"Advanced"
+}

@@ -1,0 +1,19 @@
+{
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/EANSample",
+   "commitid":"a39f17b211645f7903904e8c6d95154c99530953",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"EANSample",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/expedia_affiliate_network.jpg",
+   "style":"Advanced"
+}
