@@ -1,19 +1,20 @@
 {
-    "v": "1.1",
-    "vcs": "git",
-    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/SportsDataSample",
-    "commitid": "c1e78ea2f7798d488d57a68ea26c7f8f9d178784",
-    "action": "openproject",
-    "description": "",
-    "contactmail": "factories@codenvy.com",
-    "author": "Codenvy Factories",
-    "openfile": "",
-    "orgid":"accountya9vidwqbifhqd9p",
-    "affiliateid": "",
-    "projectattributes": {
-        "pname": "SportsDataSample",
-        "ptype": "Servlet/JSP"
-    },
-    "image":"http://factories.codenvy-stg.com/images/sportsdata.jpg",
-    "style":"Advanced"
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/SportsDataSample",
+   "commitid":"c1e78ea2f7798d488d57a68ea26c7f8f9d178784",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"SportsDataSample",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/sportsdata.jpg",
+   "style":"Advanced"
 }
+

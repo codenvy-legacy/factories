@@ -1,19 +1,20 @@
 {
-    "v": "1.1",
-    "vcs": "git",
-    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/Log4j-web",
-    "commitid": "ba8ab35635a2c4ae6b481d7322ec8c5357d722ba",
-    "action": "openproject",
-    "description": "",
-    "contactmail": "factories@codenvy.com",
-    "author": "Codenvy Factories",
-    "openfile": "",
-    "orgid":"accountya9vidwqbifhqd9p",
-    "affiliateid": "",
-    "projectattributes": {
-        "pname": "Log4j-web",
-        "ptype": "Servlet/JSP"
-    },
-    "image":"http://factories.codenvy-stg.com/images/log4j.jpg",
-    "style":"Advanced"
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/Log4j-web",
+   "commitid":"ba8ab35635a2c4ae6b481d7322ec8c5357d722ba",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"Log4j-web",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/log4j.jpg",
+   "style":"Advanced"
 }
+

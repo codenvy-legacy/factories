@@ -1,0 +1,46 @@
+{
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/super_factory",
+   "commitid":"b4be486f96c87ff72d30f183e3ecf5861d1f317d",
+   "vcsinfo": "true",
+   "action":"openproject",
+   "description":"This is a sample Spring project",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"/src/main/java/helloworld/GreetingController.java",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"super_factory",
+      "ptype":"Spring"
+   },
+   "image":"http://factories.codenvy.com/images/codenvy_logo.jpg",
+   "style":"Advanced",
+   "welcome":{
+      "authenticated":{
+         "title":"This is a greeting for authenticated users",
+         "iconurl":"http://docs.codenvy.com/wp-content/uploads/enterprise-icon.png",
+         "contenturl":"https://codenvy.com/technical-support/"
+      },
+      "nonauthenticated":{
+         "title":"This is a greeting for nonauthenticated users",
+         "iconurl":"http://docs.codenvy.com/wp-content/uploads/logo-inlaid.png",
+         "contenturl":"https://codenvy.com/explore/stories/"
+      }
+   },
+   "variables":[
+      {
+         "files":[
+            "src/main/java/**.java"
+         ],
+         "entries":[
+            {
+               "find":"VARIABLE",
+               "replace":"Hello"
+            }
+         ]
+      }
+   
+   ]
+}

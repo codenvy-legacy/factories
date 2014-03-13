@@ -1,19 +1,20 @@
 {
-    "v": "1.1",
-    "vcs": "git",
-    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/MailchimpSample",
-    "commitid": "c952a2a41fc64790f816906c7acba9869d2ffca4",
-    "action": "openproject",
-    "description": "",
-    "contactmail": "factories@codenvy.com",
-    "author": "Codenvy Factories",
-    "openfile": "",
-    "orgid":"accountya9vidwqbifhqd9p",
-    "affiliateid": "",
-    "projectattributes": {
-        "pname": "MailchimpSample",
-        "ptype": "Servlet/JSP"
-    },
-    "image":"http://factories.codenvy-stg.com/images/mailchimp.jpg",
-    "style":"Advanced"
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/MailchimpSample",
+   "commitid":"c952a2a41fc64790f816906c7acba9869d2ffca4",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"MailchimpSample",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/mailchimp.jpg",
+   "style":"Advanced"
 }
+

@@ -1,19 +1,20 @@
 {
-    "v": "1.1",
-    "vcs": "git",
-    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/htmlparser",
-    "commitid": "7d84f997deaf829e05cd6414066afd94e03a02cd",
-    "action": "openproject",
-    "description": "",
-    "contactmail": "factories@codenvy.com",
-    "author": "Codenvy Factories",
-    "openfile": "",
-    "orgid":"accountya9vidwqbifhqd9p",
-    "affiliateid": "",
-    "projectattributes": {
-        "pname": "htmlparser",
-        "ptype": "Servlet/JSP"
-    },
-    "image":"http://factories.codenvy-stg.com/images/htmlparser.jpg",
-    "style":"Advanced"
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/htmlparser",
+   "commitid":"7d84f997deaf829e05cd6414066afd94e03a02cd",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"htmlparser",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/htmlparser.jpg",
+   "style":"Advanced"
 }
+

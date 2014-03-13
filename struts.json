@@ -1,19 +1,20 @@
 {
-    "v": "1.1",
-    "vcs": "git",
-    "vcsurl": "http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/StrutsProject",
-    "commitid": "bafa2e4822580f1e6bcf00b25995a99a77fd475c",
-    "action": "openproject",
-    "description": "",
-    "contactmail": "factories@codenvy.com",
-    "author": "Codenvy Factories",
-    "openfile": "",
-    "orgid":"accountya9vidwqbifhqd9p",
-    "affiliateid": "",
-    "projectattributes": {
-        "pname": "StrutsProject",
-        "ptype": "Spring"
-    },
-    "image":"http://factories.codenvy-stg.com/images/struts.jpg",
-    "style":"Advanced"
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/StrutsProject",
+   "commitid":"bafa2e4822580f1e6bcf00b25995a99a77fd475c",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"StrutsProject",
+      "ptype":"Spring"
+   },
+   "image":"http://factories.codenvy.com/images/struts.jpg",
+   "style":"Advanced"
 }
+
