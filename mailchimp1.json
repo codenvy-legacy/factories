@@ -1,0 +1,19 @@
+{
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/MailchimpSample1",
+   "commitid":"8670391b545d54adaec9484a3a9cd59e5a851199",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"MailchimpSample1",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/mailchimp.jpg",
+   "style":"Advanced"
+}

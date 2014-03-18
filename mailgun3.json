@@ -1,0 +1,19 @@
+{
+   "v":"1.1",
+   "vcs":"git",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/MailgunSample3",
+   "commitid":"483cf44b233c7e4a00af6e65b7abcd45df5e7669",
+   "action":"openproject",
+   "description":"",
+   "contactmail":"factories@codenvy.com",
+   "author":"Codenvy Factories",
+   "openfile":"",
+   "orgid":"accountya9vidwqbifhqd9p",
+   "affiliateid":"",
+   "projectattributes":{
+      "pname":"MailgunSample3",
+      "ptype":"Servlet/JSP"
+   },
+   "image":"http://factories.codenvy.com/images/mailgun.jpg",
+   "style":"Advanced"
+}
