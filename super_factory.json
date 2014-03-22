@@ -15,7 +15,7 @@
       "pname":"super_factory",
       "ptype":"Spring"
    },
-   "style":"Advanced",
+   "style":"Vertical,Dark",
    "welcome":{
       "authenticated":{
          "title":"This is a greeting for authenticated users",
