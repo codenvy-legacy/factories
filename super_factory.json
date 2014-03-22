@@ -1,5 +1,5 @@
 {
-   "v":"1.1",
+   "v":"1.2",
    "vcs":"git",
    "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/super_factory",
    "commitid":"b4be486f96c87ff72d30f183e3ecf5861d1f317d",
@@ -15,7 +15,6 @@
       "pname":"super_factory",
       "ptype":"Spring"
    },
-   "image":"http://factories.codenvy.com/images/codenvy_logo.jpg",
    "style":"Advanced",
    "welcome":{
       "authenticated":{
