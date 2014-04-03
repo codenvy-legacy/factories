@@ -14,6 +14,7 @@
         "pname": "spring",
         "ptype": "Spring"
     },
-   "image":"http://factories.codenvy.com/images/spring.jpg",
-   "style":"Advanced"
+   "style":"Advanced",
+   "image":"http://factories.codenvy.com/images/spring.jpg"
+   
 }
