@@ -9,7 +9,7 @@
       "pname":"Sample AngularJS Project",
       "ptype":"JavaScript"
    },
-   "wname":"codenvy-factories",
+   "author": "Codenvy Factories",
    "image":"http://factories.codenvy.com/images/angular.jpg",
    "style":"Advanced"
 }
