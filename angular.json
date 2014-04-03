@@ -6,7 +6,7 @@
    "idcommit":"37a21ef422e7995cbab615431f0f63991a9b314a",
    "action":"openproject",
    "projectattributes":{
-      "pname":"Sample AngularJS Project",
+      "pname":"SampleAngularJSProject",
       "ptype":"JavaScript"
    },
    "author": "Codenvy Factories",
