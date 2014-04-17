@@ -45,7 +45,6 @@
    
    "restriction": {
         "validsince": "1397053009000",
-        "refererhostname":"codenvy.com",
         "validuntil": "1428589009000"
     }
 }
