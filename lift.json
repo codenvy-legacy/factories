@@ -1,8 +1,8 @@
 {
    "v":"1.2",
    "vcs":"git",
-   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/Struts",
-   "commitid":"476d22a82df0891df0401a8db8e475ae66beba0b",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/Lift",
+   "commitid":"2d7c4323273c20ec103294ec5ac84f3d40f712ed",
    "action":"openproject",
    "description":"",
    "contactmail":"factories@codenvy.com",
@@ -11,9 +11,9 @@
    "orgid":"accountya9vidwqbifhqd9p",
    "affiliateid":"",
    "projectattributes":{
-      "pname":"Struts",
+      "pname":"Lift",
       "ptype":"Servlet/JSP"
    },
-   "image":"http://factories.codenvy.com/images/struts.jpg",
+   "image":"http://factories.codenvy.com/images/Lift.jpg",
    "style":"Advanced"
 }

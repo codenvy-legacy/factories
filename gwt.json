@@ -1,8 +1,8 @@
 {
    "v":"1.2",
    "vcs":"git",
-   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/Struts",
-   "commitid":"476d22a82df0891df0401a8db8e475ae66beba0b",
+   "vcsurl":"http://codenvy.com/git/31/eb/be/workspace3u0vri1qaptw0vmr/GWT",
+   "commitid":"1a9a34a5dedf4e0a3cbad5d317606e26afe21ce0",
    "action":"openproject",
    "description":"",
    "contactmail":"factories@codenvy.com",
@@ -11,9 +11,9 @@
    "orgid":"accountya9vidwqbifhqd9p",
    "affiliateid":"",
    "projectattributes":{
-      "pname":"Struts",
+      "pname":"GWT",
       "ptype":"Servlet/JSP"
    },
-   "image":"http://factories.codenvy.com/images/struts.jpg",
+   "image":"http://factories.codenvy.com/images/gwt.jpg",
    "style":"Advanced"
 }
