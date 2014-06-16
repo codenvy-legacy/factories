@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-spring-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"spring_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/spring.jpg",
+   "style":"Advanced"
+}

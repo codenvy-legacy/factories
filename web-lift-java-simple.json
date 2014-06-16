@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-lift-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"lift_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/Lift.jpg",
+   "style":"Advanced"
+}

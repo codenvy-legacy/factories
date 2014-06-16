@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-vaadin-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"vaadin_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy-stg.com/images/vaadin.jpg",
+   "style":"Advanced"
+}
+

@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/mobile-android-java-basic.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"android_sample",
+      "ptype":"apk"
+   },
+   "image":"http://factories.codenvy.com/images/android.jpg",
+   "style":"Advanced"
+}

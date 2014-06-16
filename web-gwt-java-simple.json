@@ -1,0 +1,14 @@
+ {
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-gwt-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"gwt_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/gwt.jpg",
+   "style":"Advanced"
+}
+
+

@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-struts-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"struts_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/struts.jpg",
+   "style":"Advanced"
+}
