@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-groovy-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"groovy_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/groovy.jpg",
+   "style":"Advanced"
+}
