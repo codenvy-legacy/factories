@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-wicket-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"wicket_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/wicket.jpg",
+   "style":"Advanced"
+}
