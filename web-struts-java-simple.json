@@ -7,6 +7,6 @@
       "pname":"struts_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy.com/images/struts.jpg",
+   "image":"http://factories.codenvy.com/images/struts.png",
    "style":"Advanced"
 }

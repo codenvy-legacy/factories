@@ -7,6 +7,6 @@
       "pname":"lift_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy.com/images/Lift.jpg",
+   "image":"http://factories.codenvy.com/images/Lift.png",
    "style":"Advanced"
 }

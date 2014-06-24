@@ -7,6 +7,6 @@
       "pname":"groovy_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy.com/images/groovy.jpg",
+   "image":"http://factories.codenvy.com/images/groovy.png",
    "style":"Advanced"
 }

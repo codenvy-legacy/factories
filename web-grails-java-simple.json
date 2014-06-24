@@ -7,6 +7,6 @@
       "pname":"grails_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy.com/images/grails.jpg",
+   "image":"http://factories.codenvy.com/images/grails.png",
    "style":"Advanced"
 }

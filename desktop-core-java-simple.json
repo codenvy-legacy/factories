@@ -7,6 +7,6 @@
       "pname":"core_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy-stg.com/images/java.jpg",
+   "image":"http://factories.codenvy-stg.com/images/java.png",
    "style":"Advanced"
 }

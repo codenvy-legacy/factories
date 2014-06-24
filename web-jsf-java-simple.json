@@ -7,6 +7,6 @@
       "pname":"jsf_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy-stg.com/images/javaserverfaces.jpg",
+   "image":"http://factories.codenvy-stg.com/images/jsf.png",
    "style":"Advanced"
 }

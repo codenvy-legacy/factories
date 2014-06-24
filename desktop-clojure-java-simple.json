@@ -7,6 +7,6 @@
       "pname":"clojure_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy.com/images/clojure.jpg",
+   "image":"http://factories.codenvy.com/images/clojure.png",
    "style":"Advanced"
 }

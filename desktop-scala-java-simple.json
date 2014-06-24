@@ -7,6 +7,6 @@
       "pname":"scala_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy.com/images/scala.jpg",
+   "image":"http://factories.codenvy.com/images/scala.png",
    "style":"Advanced"
 }

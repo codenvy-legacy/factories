@@ -7,6 +7,6 @@
       "pname":"tapestry_sample",
       "ptype":"maven"
    },
-   "image":"http://factories.codenvy.com/images/tapestry.jpg",
+   "image":"http://factories.codenvy.com/images/tapestry.png",
    "style":"Advanced"
 }
