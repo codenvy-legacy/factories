@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-console-java.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"java_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/java.png",
+   "style":"Advanced"
+}

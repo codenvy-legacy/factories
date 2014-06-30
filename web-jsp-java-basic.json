@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-jsp-java-basic.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"jsp_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/jsp.png",
+   "style":"Advanced"
+}

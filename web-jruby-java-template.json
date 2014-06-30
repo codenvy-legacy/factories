@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-jruby-java-template.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"jruby_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/jruby.png",
+   "style":"Advanced"
+}
