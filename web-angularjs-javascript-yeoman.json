@@ -5,7 +5,7 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"yeoman_sample",
-      "ptype":"maven"
+      "ptype":"AngualrJS"
    },
    "image":"http://factories.codenvy.com/images/yeoman.png",
    "style":"Advanced"
