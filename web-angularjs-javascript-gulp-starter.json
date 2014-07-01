@@ -5,7 +5,7 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"gulpjs_sample",
-      "ptype":"maven"
+      "ptype":"AngularJS"
    },
    "image":"http://factories.codenvy.com/images/gulpjs.png",
    "style":"Advanced"
