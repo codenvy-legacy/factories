@@ -5,7 +5,7 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"yeoman_sample",
-      "ptype":"AngualrJS"
+      "ptype":"AngularJS"
    },
    "image":"http://factories.codenvy.com/images/yeoman.png",
    "style":"Advanced"
