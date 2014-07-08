@@ -1,0 +1,12 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-shale-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"shale_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/shale.png",
+   "style":"Advanced"
+}
