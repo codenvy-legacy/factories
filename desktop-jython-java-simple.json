@@ -4,7 +4,7 @@
    "vcsurl":"https://github.com/codenvy-templates/desktop-jython-java-simple.git",
    "action":"openproject",
    "projectattributes":{
-      "pname":"sample-jython",
+      "pname":"sample_jython",
       "ptype":"maven"
    },
    "image":"http://factories.codenvy.com/images/jython.png",
