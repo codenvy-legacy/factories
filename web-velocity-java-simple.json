@@ -4,7 +4,7 @@
    "vcsurl":"https://github.com/codenvy-templates/web-velocity-java-simple.git",
    "action":"openproject",
    "projectattributes":{
-      "pname":"velocity_sample",
+      "pname":"velocity-sample",
       "ptype":"maven"
    },
    "image":"http://factories.codenvy.com/images/velocity.png",
