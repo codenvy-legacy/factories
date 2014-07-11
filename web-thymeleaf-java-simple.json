@@ -4,7 +4,7 @@
    "vcsurl":"https://github.com/codenvy-templates/web-thymeleaf-java-simple.git",
    "action":"openproject",
    "projectattributes":{
-      "pname":"thymeleaf-sample",
+      "pname":"thymeleaf_sample",
       "ptype":"maven"
    },
    "image":"http://factories.codenvy.com/images/thymeleaf.png",
