@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-xstream-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"xstream-sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/xstream.png",
+   "style":"Advanced"
+
+}
