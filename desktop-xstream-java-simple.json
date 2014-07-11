@@ -4,7 +4,7 @@
    "vcsurl":"https://github.com/codenvy-templates/desktop-xstream-java-simple.git",
    "action":"openproject",
    "projectattributes":{
-      "pname":"xstream-sample",
+      "pname":"xstream_sample",
       "ptype":"maven"
    },
    "image":"http://factories.codenvy.com/images/xstream.png",
