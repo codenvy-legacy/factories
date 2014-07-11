@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-thymeleaf-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"thymeleaf-sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/thymeleaf.png",
+   "style":"Advanced"
+
+}
