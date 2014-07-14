@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-kotlin-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"kotlin_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/kotlin.png",
+   "style":"Advanced"
+
+}
