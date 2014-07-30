@@ -4,7 +4,7 @@
    "vcsurl":"https://github.com/codenvy-templates/desktop-cassandra-java-simple.git",
    "action":"openproject",
    "projectattributes":{
-      "pname":"cassandra_sample",
+      "pname":"cassandra-sample",
       "ptype":"maven"
    },
    "image":"http://factories.codenvy.com/images/cassandra.png",
