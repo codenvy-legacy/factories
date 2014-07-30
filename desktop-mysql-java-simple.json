@@ -4,7 +4,7 @@
    "vcsurl":"https://github.com/codenvy-templates/desktop-mysql-java-simple.git",
    "action":"openproject",
    "projectattributes":{
-      "pname":"mysql_sample",
+      "pname":"mysql-sample",
       "ptype":"maven"
    },
    "image":"http://factories.codenvy.com/images/mysql.png",
