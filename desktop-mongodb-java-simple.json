@@ -4,7 +4,7 @@
    "vcsurl":"https://github.com/codenvy-templates/desktop-mongodb-java-simple.git",
    "action":"openproject",
    "projectattributes":{
-      "pname":"sample_mongodb",
+      "pname":"sample-mongodb",
       "ptype":"maven"
    },
    "image":"http://factories.codenvy.com/images/mongodb.png",
