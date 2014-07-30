@@ -4,7 +4,7 @@
    "vcsurl":"https://github.com/codenvy-templates/desktop-postgresql-java-simple.git",
    "action":"openproject",
    "projectattributes":{
-      "pname":"postgresql_sample",
+      "pname":"postgresql-sample",
       "ptype":"maven"
    },
    "image":"http://factories.codenvy.com/images/postgresql.png",
