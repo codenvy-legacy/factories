@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-derby-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"derby_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/derby.png",
+   "style":"Advanced"
+
+}
