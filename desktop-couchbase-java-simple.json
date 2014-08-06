@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-couchbase-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"couchbase_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/couchbase.png",
+   "style":"Advanced"
+
+}
