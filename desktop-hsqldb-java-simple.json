@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-hsqldb-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"hsqldb_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/hsqldb.png",
+   "style":"Advanced"
+
+}
