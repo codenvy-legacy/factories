@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-h2-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"h2_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/h2.png",
+   "style":"Advanced"
+
+}
