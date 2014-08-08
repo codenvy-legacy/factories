@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-riak-java-simple.git",
+   "action":"openproject",
+   "projectattributes":{
+      "pname":"riak_sample",
+      "ptype":"maven"
+   },
+   "image":"http://factories.codenvy.com/images/riak.png",
+   "style":"Advanced"
+
+}
