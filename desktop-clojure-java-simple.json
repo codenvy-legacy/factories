@@ -5,7 +5,7 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"clojure_sample",
-      "ptype":"maven"
+      "ptype":"maven",
       "buildername":"maven",
       "runnername":"java-standalone-default"
    },
