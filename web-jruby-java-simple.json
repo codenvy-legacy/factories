@@ -2,10 +2,11 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/web-jruby-java-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"jruby_sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-webapp-default"
    },
    "image":"http://factories.codenvy.com/images/jruby.png",
    "style":"Advanced"
