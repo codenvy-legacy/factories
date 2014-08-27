@@ -2,10 +2,11 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/desktop-mongodb-java-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"sample-mongodb",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-standalone-mongodb"
    },
    "image":"http://factories.codenvy.com/images/mongodb.png",
    "style":"Advanced"
