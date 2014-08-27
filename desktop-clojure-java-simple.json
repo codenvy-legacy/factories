@@ -6,6 +6,8 @@
    "projectattributes":{
       "pname":"clojure_sample",
       "ptype":"maven"
+      "buildername":"maven",
+      "runnername":"java-standalone-default"
    },
    "image":"http://factories.codenvy.com/images/clojure.png",
    "style":"Advanced"
