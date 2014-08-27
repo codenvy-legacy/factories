@@ -2,7 +2,6 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/desktop-console-java.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"java_sample",
       "ptype":"maven",
