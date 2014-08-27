@@ -5,7 +5,9 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"cassandra-sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-standalone-cassandra"
    },
    "image":"http://factories.codenvy.com/images/cassandra.png",
    "style":"Advanced"
