@@ -2,10 +2,11 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/desktop-neo4j-java-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"neo4j_sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-standalone-neo4j"
    },
    "image":"http://factories.codenvy.com/images/neo4j.png",
    "style":"Advanced"
