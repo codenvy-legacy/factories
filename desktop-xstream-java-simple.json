@@ -2,10 +2,11 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/desktop-xstream-java-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"xstream_sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-standalone-default"
    },
    "image":"http://factories.codenvy.com/images/xstream.png",
    "style":"Advanced"
