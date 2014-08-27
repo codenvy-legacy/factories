@@ -2,10 +2,11 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/web-velocity-java-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"velocity_sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-webapp-default"
    },
    "image":"http://factories.codenvy.com/images/velocity.png",
    "style":"Advanced"
