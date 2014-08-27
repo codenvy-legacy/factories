@@ -5,7 +5,10 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"swing_sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-standalone-default",
+      "runnerenvironmentid":"gui"
    },
    "image":"http://factories.codenvy.com/images/swing.png",
    "style":"Advanced"
