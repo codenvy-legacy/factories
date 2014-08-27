@@ -5,7 +5,9 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"core_sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven"
+      
    },
    "image":"http://factories.codenvy.com/images/java.png",
    "style":"Advanced"
