@@ -5,7 +5,9 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"sample-jruby",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-standalone-default"
    },
    "image":"http://factories.codenvy.com/images/jruby.png",
    "style":"Advanced"
