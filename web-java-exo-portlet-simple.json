@@ -2,10 +2,11 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/web-java-exo-portlet-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"exo_sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-webapp-exoplatform"
    },
    "image":"http://factories.codenvy.com/images/exo.png",
    "style":"Advanced"
