@@ -2,7 +2,6 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/desktop-core-java-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"core_sample",
       "ptype":"maven",
