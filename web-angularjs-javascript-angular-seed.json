@@ -2,10 +2,10 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/web-angularjs-javascript-angular-seed.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"angularjs_sample",
-      "ptype":"AngularJS"
+      "ptype":"AngularJS",
+      "runnername":"javascript-webapp-grunt"
    },
    "image":"http://factories.codenvy.com/images/angularjs.png",
    "style":"Advanced"
