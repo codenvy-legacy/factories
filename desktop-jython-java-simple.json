@@ -2,7 +2,6 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/desktop-jython-java-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"sample_jython",
       "ptype":"maven",
