@@ -5,7 +5,9 @@
    "action":"openproject",
    "projectattributes":{
       "pname":"sample_jython",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-standalone-default"
    },
    "image":"http://factories.codenvy.com/images/jython.png",
    "style":"Advanced"
