@@ -2,10 +2,11 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/web-play2-java-simple.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"play_v2_sample",
-      "ptype":"maven"
+      "ptype":"maven",
+      "buildername":"maven",
+      "runnername":"java-webapp-default"
    },
    "image":"http://factories.codenvy.com/images/play.png",
    "style":"Advanced"
