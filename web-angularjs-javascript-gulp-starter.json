@@ -2,10 +2,10 @@
    "v":"1.2",
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/web-angularjs-javascript-gulp-starter.git",
-   "action":"openproject",
    "projectattributes":{
       "pname":"gulpjs_sample",
-      "ptype":"AngularJS"
+      "ptype":"AngularJS",
+      "runnername":"javascript-webapp-gulp"
    },
    "image":"http://factories.codenvy.com/images/gulpjs.png",
    "style":"Advanced"
