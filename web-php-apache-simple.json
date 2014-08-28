@@ -3,7 +3,7 @@
    "vcs":"git",
    "vcsurl":"https://github.com/codenvy-templates/web-php-apache-simple.git",
    "projectattributes":{
-      "pname":"php_sample",
+      "pname":"php-sample",
       "ptype":"blank",
       "runnername":"php-webapp-default",
       "runnerenvid":"php56_apache2"
