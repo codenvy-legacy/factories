@@ -1,0 +1,14 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-php-apache-simple.git",
+   "projectattributes":{
+      "pname":"php_sample",
+      "ptype":"blank",
+      "runnername":"php-webapp-default",
+      "runnerenvid":"php56_apache2"
+   },
+   "image":"http://factories.codenvy.com/images/php.png",
+   "style":"Advanced"
+
+}
