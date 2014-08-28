@@ -6,7 +6,7 @@
       "pname":"python27_sample",
       "ptype":"blank",
       "runnername":"python-webapp-default"
-   }
+   },
    "image":"http://factories.codenvy.com/images/python27.png",
    "style":"Advanced"
 
