@@ -6,7 +6,7 @@
       "pname":"php-sample",
       "ptype":"blank",
       "runnername":"php-webapp-default",
-      "runnerenvid":"php56_apache2"
+      "runnerenvironmentid":"php56_apache2"
    },
    "image":"http://factories.codenvy.com/images/php.png",
    "style":"Advanced"
