@@ -5,7 +5,8 @@
    "projectattributes":{
       "pname":"python27_sample",
       "ptype":"blank",
-      "runnername":"python-webapp-default"
+      "runnername":"python-webapp-default",
+      "runnerenvironmentid":"python27"
    },
    "image":"http://factories.codenvy.com/images/python27.png",
    "style":"Advanced"
