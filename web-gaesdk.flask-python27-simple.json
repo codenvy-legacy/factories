@@ -1,0 +1,14 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-gaesdk.flask-python27-simple.git",
+   "projectattributes":{
+      "pname":"gaesdk.flask_sample",
+      "ptype":"blank",
+      "runnername":"python-webapp-default",
+      "runnerenvid":"python27_gae199"
+   },
+   "image":"http://factories.codenvy.com/images/gaesdk.flask.png",
+   "style":"Advanced"
+
+}
