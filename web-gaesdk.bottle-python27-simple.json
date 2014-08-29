@@ -1,0 +1,14 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/web-gaesdk.bottle-python27-simple.git",
+   "projectattributes":{
+      "pname":"gaesdk.bottle_sample",
+      "ptype":"blank",
+      "runnername":"python-webapp-default",
+      "runnerenvironmentid":"python27_gae199"
+   },
+   "image":"http://factories.codenvy.com/images/gaesdk.bottle.png",
+   "style":"Advanced"
+
+}
