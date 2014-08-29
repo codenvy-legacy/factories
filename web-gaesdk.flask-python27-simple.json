@@ -6,7 +6,7 @@
       "pname":"gaesdk.flask_sample",
       "ptype":"blank",
       "runnername":"python-webapp-default",
-      "runnerenvid":"python27_gae199"
+      "runnerenvironmentid":"python27_gae199"
    },
    "image":"http://factories.codenvy.com/images/gaesdk.flask.png",
    "style":"Advanced"
