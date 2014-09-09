@@ -1,0 +1,13 @@
+{
+   "v":"1.2",
+   "vcs":"git",
+   "vcsurl":"https://github.com/codenvy-templates/desktop-c-plus-plus-basic.git",
+   "projectattributes":{
+      "pname":"c-plus-plus_sample",
+      "ptype":"blank",
+      "runnername":"cpp-standalone-default"
+   },
+   "image":"http://factories.codenvy.com/images/c-plus-plus.png",
+   "style":"Advanced"
+
+}
