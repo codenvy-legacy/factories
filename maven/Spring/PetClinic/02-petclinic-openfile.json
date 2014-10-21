@@ -1,0 +1,49 @@
+{  
+   "project":{  
+      "name":"spring-petclinic",
+      "visibility":"public",
+      "builders":{  
+         "default":"maven"
+      },
+      "runners":{  
+         "configs":{  
+            "system:/java/web/tomcat7":{  
+               "ram":0,
+               "variables":{  
+
+               },
+               "options":{  
+
+               }
+            }
+         },
+         "default":"system:/java/web/tomcat7"
+      },
+      "type":"maven",
+      "attributes":{  
+         "language":[  
+            "java"
+         ]
+      },
+      "description":"My First Factory - Pet Clinic, a sample Spring application"
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/spring-projects/spring-petclinic.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"master"
+         }
+      },
+      "runners":{  
+      }
+   },
+   "actions": {
+      "openFile":"src/main/java/org/springframework/samples/petclinic/web/PetController.java"
+   },
+   "creator":{  
+      "name":"Stevan Le Meur",
+      "email":"slemeur@codenvy.com"
+   },
+   "v":"2.0"
+}
