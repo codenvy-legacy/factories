@@ -1,0 +1,14 @@
+{
+  "v" : "2.0",
+  "project" : { "attributes" : { "language" : [ "java" ] },
+      "builders" : { "default" : "maven" },
+      "runners" : { "default" : "system:/javascript/web/grunt" },
+      "name" : "user-dashboard",
+      "type" : "GruntJS"
+    },
+  "source" : { "project" : { "location" : "https://github.com/codenvy/user-dashboard",
+          "type" : "git"
+        },
+      "runners" : {  }
+    }
+}
