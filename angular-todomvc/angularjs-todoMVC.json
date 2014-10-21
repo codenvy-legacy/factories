@@ -1,0 +1,47 @@
+{  
+   "project":{  
+      "name":"angularjs-todoMVC",
+      "visibility":"public",
+      "runners":{  
+         "configs":{  
+            "system:/javascript/web/grunt":{  
+               "variables":{  
+
+               },
+               "ram":0,
+               "options":{  
+
+               }
+            }
+         },
+         "default":"system:/javascript/web/grunt"
+      },
+      "type":"AngularJS",
+      "attributes":{  
+
+      }
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/slemeur/angularjs-todoMVC.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"master"
+         }
+      },
+      "runners":{  
+
+      }
+   },
+   "variables":[  
+
+   ],
+   "creator":{  
+      "name":"Stevan Le Meur",
+      "email":"slemeur@codenvy.com"
+   },
+   "actions":{  
+      "openFile":"index.html"
+   },
+   "v":"2.0"
+}
