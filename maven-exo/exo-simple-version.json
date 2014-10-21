@@ -1,0 +1,49 @@
+{  
+   "project":{  
+      "name":"exo-test-stevan",
+      "visibility":"public",
+      "runners":{  
+         "configs":{  
+            "project:/docker/eXoCustomRun":{  
+               "variables":{  
+
+               },
+               "ram":2000,
+               "options":{  
+
+               }
+            }
+         },
+         "default":"project:/docker/eXoCustomRun"
+      },
+      "type":"factory",
+      "attributes":{  
+         "language":[  
+            "unknown"
+         ]
+      }
+   },
+   "source":{  
+      "project":{  
+         "location":"http://nightly.codenvy-stg.com/git/a5/7c/b6/workspacedei27nes68jkqmnp/exo-test-stevan",
+         "type":"git",
+         "parameters":{  
+            "commitId":"3944c5366863d7d7505422166e0faaeb40e8885e"
+         }
+      },
+      "runners":{  
+        "/docker/eXoCustomRun" : {
+          "location" : "https://gist.githubusercontent.com/slemeur/4d7098d9fe2246b37de1/raw/d4025e4677848525b6e0d30897f64f6c255c5ac2/docker-exo-jdk7"
+        }
+      }
+   },
+   "variables":[  
+
+   ],
+   "v":"2.0",
+   "creator":{  
+      "name":"Stevan Le Meur",
+      "email":"slemeur@codenvy.com",
+      "accountId":"accountdaybeigfznbg4k95"
+   }
+}
