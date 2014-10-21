@@ -1,0 +1,17 @@
+{
+  "v" : "2.0",
+ "project" : { "attributes" : {  },
+      "builders" : { "default" : "maven" },
+      "runners" : { "default" : "system:/java/web/tomcat7" },
+      "name" : "jenkins",
+      "type" : "maven",
+      "visibility" : "public"
+    },
+  "source" : { "project" : { "location" : "https://github.com/jenkinsci/jenkins",
+          "parameters" : {  },
+          "type" : "git"
+        },
+      "runners" : {  }
+    },
+  "variables" : [  ]
+}
