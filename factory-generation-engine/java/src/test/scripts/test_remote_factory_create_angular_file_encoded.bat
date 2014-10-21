@@ -1,1 +1,0 @@
-codenvy remote proj:factory --encoded --file .\src\test\scripts\angular1.c5y

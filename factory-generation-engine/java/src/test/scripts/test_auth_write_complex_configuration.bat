@@ -1,1 +1,0 @@
-codenvy auth -u tylerjewell@gmail.com -p --token $542ADC --configure --profile test1
