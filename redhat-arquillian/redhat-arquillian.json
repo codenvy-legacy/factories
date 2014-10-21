@@ -1,0 +1,51 @@
+{  
+   "creator":{  
+      "name":"Thomas Qvarnstrom-Red Hat"
+   },
+   "project":{  
+      "attributes":{  
+         "language":[  
+            "java"
+         ]
+      },
+      "runners":{  
+         "configs":{  
+            "project:/docker/codenvy-wildfly":{  
+               "ram":0,
+               "variables":{  
+
+               },
+               "options":{  
+
+               }
+            }
+         },
+         "default":"project:/docker/codenvy-wildfly"
+      },
+      "builders":{  
+         "default":"maven"
+      },
+      "name":"codenvy-kitschensink",
+      "type":"maven",
+      "visibility":"public"
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/wildfly/quickstart.git",
+         "parameters":{  
+            "branch":"master",
+            "keepDirectory":"kitchensink"
+         },
+         "type":"git"
+      },
+      "runners":{  
+         "/docker/codenvy-wildfly":{  
+            "location":"https://raw.githubusercontent.com/tqvarnst/docker-images/master/codenvy-wildfly/Dockerfile"
+         }
+      }
+   },
+   "actions":{  
+      "openFile":"README.md"
+   },
+   "v":"2.0"
+}
