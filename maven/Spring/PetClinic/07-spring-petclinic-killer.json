@@ -61,7 +61,7 @@
             "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Welcome-Screens/welcome-not-authenticated.html"
          }
       },
-      "openFile":"src/main/java/org/springframework/samples/petclinic/web/PetController.java"
+      "openFile":"src/main/resources/db/hsqldb/populateDB.sql"
    },
    "creator":{  
       "name":"Stevan Le Meur",
