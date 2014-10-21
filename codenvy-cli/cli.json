@@ -1,0 +1,31 @@
+{
+  "v" : "2.0",
+  "project" : { "attributes" : {  },
+  "builders" : { "default" : "maven" },
+  "name" : "jenkins",
+  "type" : "maven",
+  "visibility" : "public"
+},
+"source" : { "project" : { "location" : "https://github.com/codenvy/cli",
+  "parameters" : {  },
+  "type" : "git"
+},
+"runners" : {  }
+},
+"actions": {
+  "macro":"",
+  "openFile":"README.md",
+  "warnOnClose":true,
+  "plugins": {
+  },
+  "findReplace": [{
+    "files": [
+      "README.md"
+    ],
+    "entries": [{
+      "find": "Codenvy",
+      "replace": "Dummy"
+      }]
+      }]
+    }
+  }
