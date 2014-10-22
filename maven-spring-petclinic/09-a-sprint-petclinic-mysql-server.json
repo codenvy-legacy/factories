@@ -1,0 +1,41 @@
+{
+   "project":{
+      "name":"spring-petclinic-mysql-server",
+      "visibility":"public",
+      "builders" : { "default" : "maven"},
+      "runners":{
+        "configs":{"project:/docker/mysql":{"variables":{},"ram":0,"options":{}}},
+        "default":"project:/docker/mysql"
+      },
+      "type":"maven",
+      "attributes":{
+         "language":[
+            "java"
+         ]
+      },
+      "description":"MySQL server for petclinic App"
+   },
+   "source":{
+      "project":{
+         "location":"https://github.com/benoitf/petclinic-mysql",
+         "type":"git",
+         "parameters":{
+            "branch":"master"
+         }
+      },
+      "runners":{
+         "/docker/mysql" : {
+          "location" : "https://raw.githubusercontent.com/benoitf/petclinic-mysql/master/Dockerfile"
+        }
+      }
+
+   },
+   "actions": {
+      "openFile":"README.md"
+   },
+   "creator":{
+      "name":"Florent Benoit",
+      "email":"florent.benoit@serli.com"
+   },
+   "v":"2.0"
+}

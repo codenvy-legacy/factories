@@ -1,0 +1,36 @@
+{
+   "project":{
+      "name":"spring-petclinic-mysql-server",
+      "visibility":"public",
+      "builders" : { "default" : "maven"},
+      "runners":{
+        "configs":{"system:/java/web/tomcat7":{"variables":{},"ram":512,"options":{}}},
+        "default":"system:/java/web/tomcat7"
+      },
+      "type":"maven",
+      "attributes":{
+         "language":[
+            "java"
+         ]
+      },
+      "description":"Petclinic App using MySQL"
+   },
+   "source":{
+      "project":{
+         "location":"https://github.com/benoitf/spring-petclinic-mysql",
+         "type":"git",
+         "parameters":{
+            "branch":"master"
+         }
+      }
+
+   },
+   "actions": {
+      "openFile":"src/main/resources/spring/data-access.properties"
+   },
+   "creator":{
+      "name":"Florent Benoit",
+      "email":"florent.benoit@serli.com"
+   },
+   "v":"2.0"
+}
