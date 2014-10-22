@@ -1,0 +1,47 @@
+{  
+   "creator":{  
+      "name":"Stevan Le Meur",
+      "email":"slemeur@codenvy.com"
+   },
+   "project":{  
+      "attributes":{  
+         "language":[  
+            "java"
+         ]
+      },
+      "runners":{
+         "configs":{
+            "system:/java/web/tomee":{
+               "variables":{
+
+                  },
+               "ram":0,
+               "options":{}
+            }
+         },
+         "default":"system:/java/web/tomee"
+      },
+      "builders":{  
+         "default":"maven"
+      },
+      "name":"jsf-cdi-ejb",
+      "type":"maven",
+      "visibility":"public"
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/apache/tomee.git",
+         "parameters":{  
+            "branch":"trunk",
+            "keepDirectory":"examples/jsf-cdi-and-ejb"
+         },
+         "type":"git"
+      },
+      "runners":{ 
+      }
+   },
+   "actions":{  
+      "openFile":"README.md"
+   },
+   "v":"2.0"
+}
