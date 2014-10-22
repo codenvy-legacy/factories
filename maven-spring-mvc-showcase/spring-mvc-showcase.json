@@ -1,0 +1,43 @@
+{  
+   "project":{  
+      "name":"spring-mvc-showcase",
+      "visibility":"public",
+      "runners":{  
+         "configs":{  
+            "system:/java/web/tomcat7":{  
+               "variables":{  
+
+               },
+               "ram":0,
+               "options":{  
+
+               }
+            }
+         },
+         "default":"system:/java/web/tomcat7"
+      },
+      "builders":{  
+         "default":"maven"
+      },
+      "type":"maven",
+      "attributes":{  
+
+      }
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/spring-projects/spring-mvc-showcase.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"master"
+         }
+      },
+      "runners":{  
+
+      }
+   },
+   "actions":{  
+      "openFile":"README.md"
+   },
+   "v":"2.0"
+}
