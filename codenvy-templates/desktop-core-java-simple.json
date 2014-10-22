@@ -1,0 +1,1 @@
+{"links":[],"source":{"runners":{},"project":{"parameters":{"branch":"3.1.0","keepVcs":"false"},"location":"git://github.com/codenvy-templates/desktop-core-java-simple.git","type":"git"}},"project":{"name":"desktop-core-java-simple","type":"maven","attributes":{},"builders":{"default":"maven"},"runners":{"configs":{}},"visibility":"public"},"variables":[],"v":"2.0"}
