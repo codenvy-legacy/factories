@@ -1,0 +1,52 @@
+{  
+   "project":{  
+      "name":"spring-petclinic",
+      "visibility":"public",
+      "builders":{  
+         "default":"maven"
+      },
+      "runners":{  
+         "configs":{  
+            "system:/java/web/tomcat7":{  
+               "ram":0,
+               "variables":{  
+ 
+               },
+               "options":{  
+ 
+               }
+            }
+         },
+         "default":"project:/docker/tomcat8"
+      },
+      "type":"maven",
+      "attributes":{  
+         "language":[  
+            "java"
+         ]
+      },
+      "description":"My First Factory - Pet Clinic, a sample Spring application"
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/spring-projects/spring-petclinic.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"master"
+         }
+      },
+      "runners":{
+         "/docker/tomcat8" : {
+          "location" : "https://gist.githubusercontent.com/benoitf/c8ad7ece7a0d62ce21e0/raw/2040dc3c795696d3dcaa4ea2be9280bad7a6b2bd/Tomcat8%20low%20memory"
+        }  
+      }
+   },
+   "actions": {
+      "openFile":"src/main/java/org/springframework/samples/petclinic/web/PetController.java"
+   },
+   "creator":{  
+      "name":"Florent Benoit",
+      "email":"florent.benoit@serli.com"
+   },
+   "v":"2.0"
+}
