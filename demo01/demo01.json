@@ -1,7 +1,7 @@
 {  
    "project":{  
       "name":"spring-petclinic",
-      "description":"The Spring Pet Clinic application"
+      "description":"The Spring Pet Clinic application",
       "visibility":"public",
       "type":"maven",
       "builders":{  
