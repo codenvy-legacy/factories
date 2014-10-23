@@ -27,7 +27,7 @@
       },
       "runners":{
          "/docker/tomcat8" : {
-          "location" : "https://gist.githubusercontent.com/benoitf/c8ad7ece7a0d62ce21e0/raw/2040dc3c795696d3dcaa4ea2be9280bad7a6b2bd/Tomcat8%20low%20memory"
+          "location" : "https://gist.githubusercontent.com/benoitf/d930bf48169d2be9a53f/raw/28f09bad04d614c89ebda7867435830c64525849/gistfile1.txt"
         }  
       }
    },
