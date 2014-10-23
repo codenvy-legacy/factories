@@ -21,7 +21,7 @@
    },
    "source":{
       "project":{
-         "location":"https://github.com/codenvy-demos/spring-petclinic-mysql-allinone",
+         "location":"https://github.com/codenvy-demos/spring-petclinic-mysql",
          "type":"git",
          "parameters":{
             "branch":"master"
