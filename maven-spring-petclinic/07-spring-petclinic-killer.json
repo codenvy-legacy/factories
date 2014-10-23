@@ -1,7 +1,9 @@
 {  
    "project":{  
       "name":"spring-petclinic",
+      "description":"The Spring Pet Clinic application with MySQL database",
       "visibility":"public",
+      "type":"maven",
       "builders":{  
          "default":"maven"
       },
@@ -9,12 +11,8 @@
          "configs":{  
             "system:/java/web/tomcat7":{  
                "ram":512,
-               "variables":{  
- 
-               },
-               "options":{  
- 
-               }
+               "variables":{ },
+               "options":{  }
             },
             "project:/docker/tomcat8":{  
                "ram":512,
@@ -28,13 +26,11 @@
          },
          "default":"project:/docker/tomcat8"
       },
-      "type":"maven",
       "attributes":{  
          "language":[  
             "java"
          ]
-      },
-      "description":"My First Factory - Pet Clinic, a sample Spring application"
+      }
    },
    "source":{  
       "project":{  
