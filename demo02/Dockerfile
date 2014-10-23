@@ -31,4 +31,4 @@ ENV JAVA_OPTS -Djava.awt.headless=true -server -Xms48m -Xmx200M -XX:MaxPermSize=
 ADD $app$ /home/user/tomcat7/webapps/ROOT.war
  
 # Display login, password and hostname:port
-CMD cat /home/user/.mysqlrc;echo Database host:port is $CODENVY_HOSTNAME:$CODENVY_PORT_3306; sudo service mysql start > /dev/null; ./catalina.sh run
+CMD cat /home/user/.mysqlrc;echo Database host:port is $CODENVY_HOSTNAME:$CODENVY_PORT_3306; sudo service mysql start > /dev/null; ./catalina.sh run 2>&1

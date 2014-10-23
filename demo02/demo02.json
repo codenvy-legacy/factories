@@ -27,7 +27,7 @@
       },
       "runners":{
          "/docker/mysqltomcat" : {
-          "location" : "https://gist.githubusercontent.com/benoitf/fc289542e21318050e03/raw/f79a72a0843258e410c11743cfaf6d81db513bf4/mysql-tomcat%20docker"
+          "location" : "https://gist.githubusercontent.com/benoitf/b6ed3fbaff702d47e379/raw/ea6c8ea32ea40e069756f81c74f398e66fc36cf0/gistfile1.txt"
         }  
       }
    },
