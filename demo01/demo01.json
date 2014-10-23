@@ -1,20 +1,20 @@
 {  
    "project":{  
       "name":"spring-petclinic",
+      "description":"The Spring Pet Clinic application"
       "visibility":"public",
+      "type":"maven",
       "builders":{  
          "default":"maven"
       },
       "runners":{  
          "default":"project:/docker/tomcat8"
       },
-      "type":"maven",
       "attributes":{  
          "language":[  
             "java"
          ]
-      },
-      "description":"Pet Clinic, a sample Spring application"
+      }
    },
    "source":{  
       "project":{  
