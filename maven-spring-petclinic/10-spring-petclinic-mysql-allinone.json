@@ -1,0 +1,44 @@
+{
+   "project":{
+      "name":"spring-petclinic-mysql-allione",
+      "visibility":"public",
+      "builders" : { "default" : "maven"},
+      "runners":{
+        "configs":{
+           "project:/docker/tomcatmysql":{
+             "ram":256
+           }
+        },
+        "default":"project:/docker/tomcatmysql"
+     },
+      "type":"maven",
+      "attributes":{
+         "language":[
+            "java"
+         ]
+      },
+      "description":"Petclinic App using MySQL and starting MySQL server"
+   },
+   "source":{
+      "project":{
+         "location":"https://github.com/codenvy-demos/spring-petclinic-mysql-allinone",
+         "type":"git",
+         "parameters":{
+            "branch":"master"
+         }
+      },
+      "runners":{
+         "/docker/tomcatmysql" : {
+          "location" : "https://raw.githubusercontent.com/codenvy-demos/spring-petclinic-mysql-allinone/master/Dockerfile"
+        }  
+      }
+   },
+   "actions": {
+      "openFile":"requests.sql"
+   },
+   "creator":{
+      "name":"Florent Benoit",
+      "email":"florent.benoit@serli.com"
+   },
+   "v":"2.0"
+}
