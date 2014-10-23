@@ -1,0 +1,42 @@
+{  
+   "project":{  
+      "name":"spring-petclinic-mysql",
+      "description":"The Spring Pet Clinic application for MySQL",
+      "visibility":"public",
+      "type":"maven",
+      "builders":{  
+         "default":"maven"
+      },
+      "runners":{  
+         "default":"project:/docker/mysqltomcat"
+      },
+      "attributes":{  
+         "language":[  
+            "java"
+         ]
+      }
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/codenvy-demos/spring-petclinic.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"mysql",
+            "keepVcs":"true"
+         }
+      },
+      "runners":{
+         "/docker/mysqltomcat" : {
+          "location" : "https://gist.githubusercontent.com/benoitf/fc289542e21318050e03/raw/f79a72a0843258e410c11743cfaf6d81db513bf4/mysql-tomcat%20docker"
+        }  
+      }
+   },
+   "actions": {
+      "openFile":"requests.sql"
+   },
+   "creator":{  
+      "name":"Tyler Jewell",
+      "email":"tyler@codenvy.com"
+   },
+   "v":"2.0"
+}
