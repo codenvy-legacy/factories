@@ -1,0 +1,45 @@
+{  
+   "project":{  
+      "name":"php",
+      "visibility":"public",
+      "runners":{  
+         "configs":{  
+            "system:/php/web/php56_apache2":{  
+               "variables":{  
+
+               },
+               "ram":0,
+               "options":{  
+
+               }
+            }
+         },
+         "default":"system:/php/web/php56_apache2"
+      },
+      "type":"php",
+      "attributes":{  
+
+      }
+   },
+  "source":{  
+      "project":{  
+         "location":"https://github.com/codenvy-templates/web-php-apache-simple.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"master"
+         }
+      },
+      "runners":{  
+
+      }
+   },
+   "actions": {
+      "openFile":"index.php"
+   },
+   "creator":{  
+      "name":"Codenvy Factory",
+      "email":"factories@codenvy.com",
+      "accountId":"accountya9vidwqbifhqd9p"
+   },
+   "v":"2.0"
+}

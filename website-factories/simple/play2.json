@@ -1,0 +1,51 @@
+{  
+   "project":{  
+      "name":"play2",
+      "visibility":"public",
+      "builders":{  
+         "default":"maven"
+      },
+      "runners":{  
+         "configs":{  
+            "system:/java/web/tomcat7":{  
+               "variables":{  
+
+               },
+               "ram":512,
+               "options":{  
+
+               }
+            }
+         },
+         "default":"system:/java/web/tomcat7"
+      },
+      "type":"maven",
+      "attributes":{  
+         "language":[  
+            "java"
+         ]
+      },
+      "description":"Play 2.10 application with basic functionality. Returns user's input with simple preferences."
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/codenvy-templates/web-play2-java-simple.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"master"
+         }
+      },
+      "runners":{  
+
+      }
+   },
+   "actions": {
+      "openFile":"app/controllers/Application.java"
+   },
+   "creator":{  
+      "name":"Codenvy Factory",
+      "email":"factories@codenvy.com",
+      "accountId":"accountya9vidwqbifhqd9p"
+   },
+   "v":"2.0"
+}
