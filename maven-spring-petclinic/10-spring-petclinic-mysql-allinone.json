@@ -21,7 +21,7 @@
    },
    "source":{
       "project":{
-         "location":"https://github.com/codenvy-demos/spring-petclinic-mysql",
+         "location":"https://github.com/codenvy-demos/spring-petclinic",
          "type":"git",
          "parameters":{
             "branch":"mysql"
