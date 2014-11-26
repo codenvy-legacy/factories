@@ -1,4 +1,4 @@
-FROM codenvy/jdk7_tomcat7
+FROM codenvy/jdk7
 ENV DEBIAN_FRONTEND noninteractive
  
 # Install MYSQL
@@ -19,16 +19,9 @@ RUN sudo apt-get update && \
 RUN sudo mysql -uroot -e "CREATE USER '$CODENVY_MYSQL_USER'@'%' IDENTIFIED BY '"$CODENVY_MYSQL_PASSWORD"'" && \
     sudo mysql -uroot -e "GRANT ALL PRIVILEGES ON *.* TO '$CODENVY_MYSQL_USER'@'%' IDENTIFIED BY '"$CODENVY_MYSQL_PASSWORD"'; FLUSH PRIVILEGES;" && \
     sudo mysql -uroot -e "CREATE DATABASE $CODENVY_MYSQL_DB;"
-
  
 # expose MYSQL port
 EXPOSE 3306
-
-# Set JVM options (low memory)
-ENV JAVA_OPTS -Djava.awt.headless=true -server -Xms48m -Xmx200M -XX:MaxPermSize=200m
-
-#Add webapp
-ADD $app$ /home/user/tomcat7/webapps/ROOT.war
  
 # Display login, password and hostname:port
-CMD cat /home/user/.mysqlrc;echo Database host:port is $CODENVY_HOSTNAME:$CODENVY_PORT_3306; sudo service mysql start > /dev/null; ./catalina.sh run
+CMD cat /home/user/.mysqlrc;echo Runtime host is $CODENVY_HOSTNAME:$CODENVY_PORT_3306; sudo service mysql start > /dev/null; while true;do true; done

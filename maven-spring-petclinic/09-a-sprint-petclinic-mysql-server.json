@@ -25,7 +25,7 @@
       },
       "runners":{
          "/docker/mysql" : {
-          "location" : "https://raw.githubusercontent.com/benoitf/petclinic-mysql/master/Dockerfile"
+          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/maven-spring-petclinic/09-a-Dockerfile"
         }
       }
 

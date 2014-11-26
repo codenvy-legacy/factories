@@ -29,7 +29,7 @@
       },
       "runners":{
          "/docker/tomcatmysql" : {
-          "location" : "https://gist.githubusercontent.com/benoitf/be0ebd791223cec3fe23/raw/f79a72a0843258e410c11743cfaf6d81db513bf4/gistfile1.txt"
+          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/maven-spring-petclinic/10-Dockerfile"
         }  
       }
    },
