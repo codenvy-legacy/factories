@@ -16,7 +16,7 @@
          ]
          ,
             "codenvyGuidedTour": [
-                "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/10-spring-petclinic-mysql-allinone-guidedtour.json"
+                "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/maven-spring-petclinic/10-spring-petclinic-mysql-allinone-guidedtour.json"
             ]      },
       "description":"My First Factory - Pet Clinic, a sample Spring application"
    },
