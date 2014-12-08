@@ -1,0 +1,43 @@
+
+{
+   "project":{
+      "name":"spring-petclinic",
+      "visibility":"public",
+      "builders":{
+         "default":"maven"
+      },
+      "runners":{
+        "default":"project:/docker/mysqltomcat"
+      },
+      "type":"maven",
+      "attributes":{
+         "language":[
+            "java"
+         ]
+         ,
+            "codenvyGuidedTour": [
+                "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/10-spring-petclinic-mysql-allinone-guidedtour.json"
+            ]      },
+      "description":"My First Factory - Pet Clinic, a sample Spring application"
+   },
+   "source":{
+      "project":{
+         "location":"https://github.com/codenvy-demos/spring-petclinic",
+         "type":"git",
+         "parameters":{
+            "branch":"mysql",
+            "keepVcs":"true"
+         }
+      },
+      "runners":{
+        "/docker/mysqltomcat" : {
+          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/maven-spring-petclinic/10-Dockerfile"
+        }
+      }
+   },
+   "creator":{
+      "name":"Florent Benoit",
+      "email":"florent.benoit@serli.com"
+   },
+   "v":"2.0"
+}
