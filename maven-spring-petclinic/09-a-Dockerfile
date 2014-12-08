@@ -9,6 +9,9 @@ RUN sudo apt-get update && \
     sudo service mysql restart && \
     sudo mysql -uroot -e "GRANT ALL PRIVILEGES ON *.* TO 'root'@'%'; FLUSH PRIVILEGES;"
 
+RUN mkdir /home/user/app_src
+ADD $app_src$ /home/user/app_src/
+
 # Create MySQL user and database
 RUN sudo service mysql restart && \
     CODENVY_MYSQL_PASSWORD=password && \
@@ -19,7 +22,8 @@ RUN sudo service mysql restart && \
     echo "MySQL Database:$CODENVY_MYSQL_DB" >> /home/user/.mysqlrc && \
     sudo mysql -uroot -e "CREATE USER '$CODENVY_MYSQL_USER'@'%' IDENTIFIED BY '"$CODENVY_MYSQL_PASSWORD"'" && \
     sudo mysql -uroot -e "GRANT ALL PRIVILEGES ON *.* TO '$CODENVY_MYSQL_USER'@'%' IDENTIFIED BY '"$CODENVY_MYSQL_PASSWORD"'; FLUSH PRIVILEGES;" && \
-    sudo mysql -uroot -e "CREATE DATABASE $CODENVY_MYSQL_DB;"
+    sudo mysql -uroot -e "CREATE DATABASE $CODENVY_MYSQL_DB;" && \
+    sudo mysql -uroot < /home/user/app_src/src/main/resources/db/mysql/initDB.sql
  
 # expose MYSQL port
 EXPOSE 3306
