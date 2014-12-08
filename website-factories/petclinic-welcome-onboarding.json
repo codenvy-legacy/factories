@@ -1,0 +1,53 @@
+{  
+   "project":{  
+      "name":"spring-petclinic",
+      "description":"The Spring Pet Clinic application",
+      "visibility":"public",
+      "type":"maven",
+      "builders":{  
+         "default":"maven"
+      },
+      "runners":{  
+         "default":"project:/docker/tomcat8"
+      },
+      "attributes":{  
+         "language":[  
+            "java"
+         ]
+      }
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/slemeur/spring-petclinic.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"master",
+            "keepVcs":"true"
+         }
+      },
+      "runners":{
+         "/docker/tomcat8" : {
+          "location" : "https://gist.githubusercontent.com/slemeur/5681f0774708e06bec0f/raw/1e4b35ed41bba2c51ccfe556ffe65adac4b39583/docker-tomcat8"
+        }  
+      }
+   },
+   "actions": {
+      "welcome": {
+         "authenticated": {
+            "title": "Discover",
+            "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Onboarding-Steps/welcome.html"
+         },
+         "nonauthenticated": {
+            "title": "Discover",
+            "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Onboarding-Steps/welcome.html"
+         }
+      },
+      "openFile":"src/main/java/org/springframework/samples/petclinic/web/PetController.java"
+   },
+   "creator":{  
+      "name":"Stevan Le Meur",
+      "email":"stevan@codenvy.com",
+      "accountId":"accountya9vidwqbifhqd9p"
+   },
+   "v":"2.0"
+}
