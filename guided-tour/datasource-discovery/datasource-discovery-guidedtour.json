@@ -1,0 +1,54 @@
+{
+  "steps": [
+    {
+      "title": "Database Auto-Connection",
+      "content": "When you run the app, the datasource plugin will check for a database in your runner. If one exists, it will be automatically connected.",
+      "element": "gwt-debug-MainToolbar/runApp-true",
+      "placement": "BOTTOM",
+      "xOffset": "-17",
+      "actions": [
+        {
+          "action": "action runApp"
+        }
+      ]
+    },   
+    {
+      "title": "Discover the Datasource",
+      "content": "Open on <b>Datasource Explorer</b> panel and select <b>Runner-DS-spring-petclinic-...</b> to browse the connected database",
+      "element": "gwt-debug-tabButton-Datasource",
+      "placement": "BOTTOM",
+      "xOffset": "-17"
+    },
+    {
+      "title": "Explore the Database",
+      "content": "Explore the database’s tables and schema. We’ve opened the <b>requests.sql</b> file for you - you’ll use it in the next step to make a change.",
+      "element": "gwt-debug-tabButton-Datasource",
+      "placement": "RIGHT",
+      "xOffset": "190",
+      "actions": [
+        {
+          "action": "openfile requests.sql"
+        }
+      ]
+    },
+    {
+      "title": "Create SQL Request",
+      "content": "In <b>requests.sql</b> add a request to get all entries from the <i>Pets</i> SQL table.  Add the following line to the end of the file: <b>select * from petclinic.pets order by id desc;</b> <hr> You can use <em>‘ctrl+space’</em> to get syntax-completion on SQL statements. Save the file when you’re done.",
+      "element": "gwt-debug-editorPartStack-contentPanel",
+      "placement": "LEFT"
+    }, 
+    {
+      "title": "Execute SQL Request",
+      "content": "Hit “Execute” to process your request and see the pet names in “Query Results” section.",
+      "element": "gwt-debug-activeTabButton-requests.sql",
+      "placement": "RIGHT"
+    },
+    {
+      "title": "Try Your Own Database",
+      "content": "You can add your own database by adding it to a Docker container (our docs discuss how to create custom Docker environments).  You will need a Codenvy account to do this - sign-up if you haven’t already to save your database.",
+      "element": "gwt-debug-MainMenu/datasourceMainMenu-true",
+      "placement": "BOTTOM"
+    }
+  ]
+}
+
