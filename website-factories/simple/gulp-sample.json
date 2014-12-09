@@ -1,0 +1,46 @@
+{  
+   "project":{  
+      "name":"gulp-sample",
+      "builders":{  
+
+      },
+      "visibility":"public",
+      "runners":{  
+         "configs":{  
+
+         },
+         "default":"system:/javascript/web/gulp"
+      },
+      "description":"Project using gulp and AngularJS scaffolding.",
+      "type":"AngularJS",
+      "attributes":{  
+         "language":[  
+            "javascript"
+         ],
+         "framework":[  
+            "AngularJS"
+         ]
+      }
+   },
+   "source":{  
+      "project":{  
+         "parameters":{  
+            "commitId":"1823b5f9c175713207322a40a448dd0386a06473"
+         },
+         "location":"https://github.com/codenvy-templates/web-angularjs-javascript-gulp-starter.git",
+         "type":"git"
+      },
+      "runners":{  
+
+      }
+   },
+   "actions": {
+      "openFile":"gulpfile.js"
+   },
+   "creator":{  
+      "name":"Codenvy Factory",
+      "email":"factories@codenvy.com",
+      "accountId":"accountya9vidwqbifhqd9p"
+   },
+   "v":"2.0"
+}

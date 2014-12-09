@@ -1,0 +1,41 @@
+{  
+   "project":{  
+      "name":"jruby-sample",
+      "builders":{  
+         "default":"maven"
+      },
+      "visibility":"public",
+      "runners":{  
+         "configs":{  
+
+         },
+         "default":"system:/java/standalone/simple/cli"
+      },
+      "type":"maven",
+      "attributes":{  
+
+      },
+      "description":"A JRuby Hello World"
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/codenvy-templates/desktop-jruby-java-simple.git",
+         "type":"git",
+         "parameters":{  
+            "branch":"master"
+         }
+      },
+      "runners":{  
+
+      }
+   },
+   "actions": {
+      "openFile":"src/main/ruby/my_runnable.rb"
+   },
+   "creator":{  
+      "name":"Codenvy Factory",
+      "email":"factories@codenvy.com",
+      "accountId":"accountya9vidwqbifhqd9p"
+   },
+   "v":"2.0"
+}
