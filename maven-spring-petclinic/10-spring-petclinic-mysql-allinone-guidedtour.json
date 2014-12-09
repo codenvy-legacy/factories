@@ -1,72 +1,64 @@
 {
   "steps": [
+    {
+      "title": "See the App",
+      "content": "Let’s start by running the <b>app</b>.  We simplify your work by taking care of building the application, downloading dependencies and setting up the app’s environment (including <i>RAM</i> and <i>queues</i>) automatically.",
+      "element": "gwt-debug-MainToolbar/runApp-true",
+      "placement": "BOTTOM",
+      "xOffset": "-17",
+      "actions": [
         {
-          "title": "See the App",
-          "content": "Letâ€™s start by running the <b>app</b>.  We simplify your work by taking care of building the application, downloading dependencies and setting up the appâ€™s environment (including <i>RAM</i> and <i>queues</i>) automatically.",
-          "element": "gwt-debug-MainToolbar/runApp-true",
-          "placement": "BOTTOM",
-          "xOffset": "-17",
-          "actions": [
-           {
-             "action": "action runApp"
-            }
-           ]
-          
-          },
-          {
-          "title": "Preview the App",
-          "content": "Codenvy launches a <b>Docker</b> container for each run. Docker containers are isolated processes that contain the software to run your code.  Your projectâ€™s code and artifacts are copied into the runner automatically.  When the runner has finished loading, the application preview URL will appear.  <hr> Clicking the URL will view the application in a new browser tab. Console applications will display output in the console panel. Click the URL here to see the application.",
-          "element": "gwt-debug-Application",
-          "placement": "TOP",
-          "xOffset": "100"
-          },
-          {
-          "title": "Access the Terminal",
-          "content": "Every Codenvy runner has a terminal with root access. <hr>Try it by typing â€œtopâ€ to get a list of your running processes.",
-          "element": "gwt-debug-MainToolbar/shutdownApp-true",
-          "placement": "TOP",
-          "xOffset":"-40" 
-          },
-        
-          {
-          "title": "Edit the app",
-          "content": "The editor includes key bindings for emacs, vi, and sublime along with syntax highlighting, auto-complete, error warnings, quick-fix, code folding, and international keyboard support. <hr>Try it by replacing one of the names in the SQL file with your own name.  Use <em>â€˜ctrl+spaceâ€™</em> to get completion on SQL statements. Save the file when youâ€™re done.",
-          "element": "gwt-debug-projectExplorerTree-panel",
-          "placement": "RIGHT",
-          "actions": [
-          {
-          "action": "openfile requests.sql"
-          }
-          ]
-          },
-          {
-          "title": "Temporary Workspace",
-          "content": "This project has been created in a temporary workspace which has 256MB of RAM. Your project will be destroyed if you close the tab or become idle.  ",
-          "element": "gwt-debug-temporary-workspace-used-toolbar-button",
-          "placement": "BOTTOM",
-          "xOffset": "-20"
-          },
-        {
-          "title": "Import your Projects",
-          "content": "You can import your existing projects quickly and easily. Create a free account to get a named workspace with unlimited private projects, then link your Github credentials (or any of 15 other providers we support). Weâ€™ll guide you through the sign-up and import, itâ€™s easy.",
-          "element": "gwt-debug-tabButton-Explorer",
-          "placement": "BOTTOM",
-          "xOffset": "400"
+          "action": "action runApp"
+        }
+      ]
+
     },
-           {
-          "title": "Git Integration",
-          "content": "Codenvy projects may have a local git or subversion repository. The git and svn plugins provide visual access to commands.  Select git->Commit to add and commit your change to the local git repository.",
-          "element": "gwt-debug-MainMenu/git-true",
-          "placement": "BOTTOM",
-          "xOffset": "-10"
-          },
-    
-          {
-          "title": "Commit the change",
-          "content": "Select the checkbox and add a comment. Git information will appear as events. You may also push changes to remote repositories that you.",
-          "element": "git-commit-commit",
-          "placement": "BOTTOM",
-          "xOffset": "-20"
-          }
-    ]
+    {
+      "title": "Preview the App",
+      "content": "Codenvy launches a <b>Docker</b> container for each run. Docker containers are isolated processes that contain the software to run your code.  Your project’s code and artifacts are copied into the runner automatically.  When the runner has finished loading, the application preview URL will appear.  <hr> Clicking the URL will view the application in a new browser tab. Console applications will display output in the console panel. Click the URL here to see the application.",
+      "element": "gwt-debug-Application",
+      "placement": "TOP",
+      "xOffset": "100"
+    },
+    {
+      "title": "Access the Terminal",
+      "content": "Every Codenvy runner has a terminal with root access. <hr>Try it by typing “top” to get a list of your running processes.",
+      "element": "gwt-debug-MainToolbar/shutdownApp-true",
+      "placement": "TOP",
+      "xOffset":"-40"
+    },
+
+    {
+      "title": "Edit the app",
+      "content": "The editor includes key bindings for emacs, vi, and sublime along with syntax highlighting, auto-complete, error warnings, quick-fix, code folding, and international keyboard support. <hr>Try it by replacing one of the names in the SQL file with your own name.  Use <em>‘ctrl+space’</em> to get completion on SQL statements. Save the file when you’re done.",
+      "element": "gwt-debug-projectExplorerTree-panel",
+      "placement": "RIGHT",
+      "actions": [
+        {
+          "action": "openfile requests.sql"
+        }
+      ]
+    },
+    {
+      "title": "Git Integration",
+      "content": "Codenvy projects may have a local git or subversion repository. The git and svn plugins provide visual access to commands.  Select git->Commit to add and commit your change to the local git repository.",
+      "element": "gwt-debug-MainMenu/git-true",
+      "placement": "BOTTOM",
+      "xOffset": "-10"
+    },
+    {
+      "title": "Temporary Workspace",
+      "content": "This project has been created in a temporary workspace which has 256MB of RAM. Your project will be destroyed if you close the tab or become idle.  ",
+      "element": "gwt-debug-temporary-workspace-used-toolbar-button",
+      "placement": "BOTTOM",
+      "xOffset": "-20"
+    },
+    {
+      "title": "Import your Projects",
+      "content": "You can import your existing projects quickly and easily. Create a free account to get a named workspace with unlimited private projects, then link your Github credentials (or any of 15 other providers we support). We’ll guide you through the sign-up and import, it’s easy.",
+      "element": "gwt-debug-tabButton-Explorer",
+      "placement": "BOTTOM",
+      "xOffset": "400"
+    }
+  ]
 }
