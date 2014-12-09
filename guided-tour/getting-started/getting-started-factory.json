@@ -31,7 +31,7 @@
       },
       "runners":{
         "/docker/mysqltomcat" : {
-          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/maven-spring-petclinic/10-Dockerfile"
+          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/Dockerfile"
         }
       }
    },
