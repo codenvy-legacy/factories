@@ -1,0 +1,55 @@
+{
+   "project":{
+      "name":"spring-petclinic-mysql-allione",
+      "visibility":"public",
+      "builders" : { "default" : "maven"},
+      "runners":{
+        "configs":{
+           "project:/docker/tomcatmysql":{
+             "ram":256
+           }
+        },
+        "default":"project:/docker/tomcatmysql"
+     },
+      "type":"maven",
+      "attributes":{
+         "language":[
+            "java"
+         ]
+      },
+      "description":"Petclinic App using MySQL and starting MySQL server"
+   },
+   "source":{
+      "project":{
+         "location":"https://github.com/codenvy-demos/spring-petclinic",
+         "type":"git",
+         "parameters":{
+            "branch":"mysql"
+         }
+      },
+      "runners":{
+         "/docker/tomcatmysql" : {
+          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/maven-spring-petclinic/10-Dockerfile"
+        }  
+      }
+   },
+   "actions": {
+      "welcome": {
+         "authenticated": {
+            "title": "Discover",
+            "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Onboarding-Steps/welcome.html"
+         },
+         "nonauthenticated": {
+            "title": "Discover",
+            "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Onboarding-Steps/welcome.html"
+         }
+      },
+      "openFile":"requests.sql"
+   },
+   "creator":{  
+      "name":"Codenvy Factory",
+      "email":"factories@codenvy.com",
+      "accountId":"accountya9vidwqbifhqd9p"
+   },
+   "v":"2.0"
+}
