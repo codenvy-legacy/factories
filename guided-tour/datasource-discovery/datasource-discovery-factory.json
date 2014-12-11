@@ -15,9 +15,9 @@
             "java"
          ]
          ,
-            "codenvyGuidedTour": [
-                "https://gist.githubusercontent.com/sunix/308f4998c58d7113ea97/raw/2d833e453eebfb0fef429c345faa8c7aaec98ed4/datasource-guided-tour"
-            ]
+         "codenvyGuidedTour": [
+                "https://gist.githubusercontent.com/sunix/308f4998c58d7113ea97/raw/f9a0501b7c5e3790486910fc721c8ec85baa993d/datasource-guided-tour"
+         ]
       },
       "description":"My First Factory - Pet Clinic, a sample Spring application"
    },
