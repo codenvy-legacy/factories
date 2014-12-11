@@ -1,0 +1,44 @@
+
+{
+   "project":{
+      "name":"spring-petclinic",
+      "visibility":"public",
+      "builders":{
+         "default":"maven"
+      },
+      "runners":{
+        "default":"project:/docker/mysqltomcat"
+      },
+      "type":"maven",
+      "attributes":{
+         "language":[
+            "java"
+         ]
+         ,
+         "codenvyGuidedTour": [
+                "https://gist.githubusercontent.com/sunix/308f4998c58d7113ea97/raw/f9a0501b7c5e3790486910fc721c8ec85baa993d/datasource-guided-tour"
+         ]
+      },
+      "description":"My First Factory - Pet Clinic, a sample Spring application"
+   },
+   "source":{
+      "project":{
+         "location":"https://github.com/codenvy-demos/spring-petclinic",
+         "type":"git",
+         "parameters":{
+            "branch":"mysql",
+            "keepVcs":"true"
+         }
+      },
+      "runners":{
+        "/docker/mysqltomcat" : {
+          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/Dockerfile"
+        }
+      }
+   },
+   "creator":{
+      "name":"Sun TAN",
+      "email":"sun.tan@serli.com"
+   },
+   "v":"2.0"
+}
