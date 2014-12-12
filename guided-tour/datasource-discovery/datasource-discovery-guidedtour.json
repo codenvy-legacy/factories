@@ -11,10 +11,17 @@
           "action": "action runApp"
         }
       ]
-    },   
+    },
+    {
+      "title": "We have launched the App",
+      "content": "Codenvy launches a <b>Docker</b> container for each run. Docker containers are isolated processes that contain the software to run your code.  Your project’s code and artifacts are copied into the runner automatically.  When the runner has finished loading, the application preview URL will appear.  <hr>Console applications will display output in the console panel.",
+      "element": "gwt-debug-Application",
+      "placement": "TOP",
+      "xOffset": "100"
+    },
     {
       "title": "Discover the Datasource",
-      "content": "Open on <b>Datasource Explorer</b> panel. Once the application is running, select <b>Runner-DS-spring-petclinic-...</b> to browse the connected database",
+      "content": "Open the <b>Datasource Explorer</b> panel. <hr> Once the application is started, select <b>Runner-DS-spring-petclinic-...</b> to browse the connected database",
       "element": "gwt-debug-tabButton-Datasource",
       "placement": "RIGHT",
       "yOffset": "60",
@@ -28,29 +35,31 @@
       "title": "Explore the Database",
       "content": "Explore the database’s tables and schema. We’ve opened the <b>requests.sql</b> file for you - you’ll use it in the next step to make a change.",
       "element": "gwt-debug-datasourcePanel",
-      "yOffset": "60",
-      "placement": "RIGHT"
+      "placement": "RIGHT",
+      "yOffset": "100"
     },
     {
       "title": "Create SQL Request",
-      "content": "In <b>requests.sql</b> add a request to get all entries from the <i>Pets</i> SQL table.  Add the following line to the end of the file: <b>select * from petclinic.pets order by id desc;</b> <hr> You can use <em>‘ctrl+space’</em> to get syntax-completion on SQL statements. Select a <em>Datasource target</em> to get completion on tables and columns of your database. Save the file when you’re done.",
+      "content": "In <b>requests.sql</b> add a request to get all entries from the <i>Pets</i> SQL table.  Add the following line to the end of the file: <hr> <b>SELECT * FROM petclinic.pets INNER JOIN petclinic.owners ON owner_id = owners.id</b> <hr> You can use <em>‘ctrl+space’</em> to get syntax-completion on SQL statements. Save the file when you’re done.",
       "element": "gwt-debug-editorPartStack-contentPanel",
-      "placement": "LEFT",
-      "width": "180",
-      "yOffset": "100"
+      "placement": "BOTTOM",
+      "xOffset": "200",
+      "yOffset": "-300",
+      "width": "400"
     }, 
     {
       "title": "Execute SQL Request",
-      "content": "Hit “Execute” to process your request and see the pet names in “Query Results” section.",
+      "content": "Select the SQL statement and hit “Execute Query” to process your request and see the pets and their owners in “Query Results” section.",
       "element": "gwt-debug-dsExecuteButton",
       "placement": "LEFT",
       "width": "190"
     },
     {
       "title": "Try Your Own Database",
-      "content": "You can add your own database by adding it to a Docker container (our docs discuss how to create custom Docker environments).  You will need a Codenvy account to do this - sign-up if you haven’t already to save your database.",
+      "content": "You can add your own database by adding it to a Docker container (our docs discuss how to create custom Docker environments).  You will need a Codenvy account for this.",
       "element": "gwt-debug-MainMenu/datasourceMainMenu-true",
-      "placement": "BOTTOM"
+      "placement": "BOTTOM",
+      "nextButtonLabel": "Done"
     }
   ]
 }
