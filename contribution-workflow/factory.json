@@ -1,0 +1,33 @@
+{
+  "source": {
+    "project": {
+      "parameters": {
+        "branch": "master",
+        "keepVcs": "true"
+      },
+      "location": "https://github.com/Serli/codenvy-contribution-sample",
+      "type": "git"
+    }
+  },
+  "project": {
+    "name": "console",
+    "description": "A simple JAR project based on Maven.",
+    "visibility": "public",
+    "builders": {
+      "default": "maven"
+    },
+    "runners": {
+      "default": "system:/java/standalone/simple/cli"
+    },
+    "type": "maven",
+    "attributes": {
+      "language": [
+        "java"
+      ],
+      "contribute": [
+        "true"
+      ]
+    }
+  },
+  "v": "2.0"
+}
