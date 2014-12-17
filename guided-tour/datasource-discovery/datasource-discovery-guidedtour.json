@@ -28,6 +28,9 @@
       "actions": [
         {
           "action": "openfile requests.sql"
+        },
+        {
+          "action": "opentab NAVIGATION.Datasource"
         }
       ]
     },
@@ -63,5 +66,4 @@
     }
   ]
 }
-
 
