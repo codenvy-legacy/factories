@@ -1,13 +1,13 @@
 
 {
    "project":{
-      "name":"spring-petclinic",
+      "name":"getting-started-guided-tour",
       "visibility":"public",
       "builders":{
          "default":"maven"
       },
       "runners":{
-        "default":"project:/docker/mysqltomcat"
+        "default":"system:/java/web/tomcat7"
       },
       "type":"maven",
       "attributes":{
@@ -16,23 +16,17 @@
          ]
          ,
             "codenvyGuidedTour": [
-                "https://gist.githubusercontent.com/benoitf/860a66f5cc68c35b2f8d/raw/77afce6a1e6b1e073bb47bc7fc1daa65df26cc60/correct%20order"
+                "https://gist.githubusercontent.com/benoitf/6a51866e6591c3583c95/raw/dfdaf66f430881f719bfc4f176881e4ce7a48909/gistfile1.txt"
             ]      },
-      "description":"My First Factory - Pet Clinic, a sample Spring application"
+      "description":"Getting Started Guided Tour"
    },
    "source":{
       "project":{
-         "location":"https://github.com/codenvy-demos/spring-petclinic",
+         "location":"https://github.com/spring-projects/spring-petclinic.git",
          "type":"git",
          "parameters":{
-            "branch":"mysql",
-            "keepVcs":"true"
+            "branch":"master"
          }
-      },
-      "runners":{
-        "/docker/mysqltomcat" : {
-          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/Dockerfile"
-        }
       }
    },
    "creator":{
