@@ -1,5 +1,5 @@
 {
-  "hasWelcomeStep" : true,
+  "hasWelcomeStep" : false,
   "steps": [
     {
       "title": "Getting Started with Codenvy",
