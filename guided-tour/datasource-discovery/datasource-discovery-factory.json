@@ -36,9 +36,22 @@
         }
       }
    },
+    "actions": {
+      "welcome": {
+         "authenticated": {
+            "title": "Discover",
+            "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Onboarding-Steps/welcome.html"
+         },
+         "nonauthenticated": {
+            "title": "Discover",
+            "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Onboarding-Steps/welcome.html"
+         }
+      }
+   },
    "creator":{
       "name":"Sun TAN",
-      "email":"sun.tan@serli.com"
+      "email":"sun.tan@serli.com",
+      "accountId":"accountya9vidwqbifhqd9p"
    },
    "v":"2.0"
 }

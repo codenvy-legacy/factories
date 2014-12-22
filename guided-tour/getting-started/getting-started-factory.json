@@ -29,9 +29,22 @@
          }
       }
    },
+   "actions": {
+      "welcome": {
+         "authenticated": {
+            "title": "Discover",
+            "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Onboarding-Steps/welcome.html"
+         },
+         "nonauthenticated": {
+            "title": "Discover",
+            "contenturl": "https://dl.dropboxusercontent.com/u/2187905/Codenvy/PetClinic-Onboarding-Steps/welcome.html"
+         }
+      }
+   },
    "creator":{
       "name":"Florent Benoit",
-      "email":"florent.benoit@serli.com"
+      "email":"florent.benoit@serli.com",
+      "accountId":"accountya9vidwqbifhqd9p"
    },
    "v":"2.0"
 }
