@@ -3,7 +3,7 @@
   "steps": [
     {
       "title": "Getting Started with Codenvy",
-      "content": "Codenvy is the world's most advanced cloud IDE. Code, build, run and share projects from within your browser. Craft your finest code then command non-blocking, non-thrashing Docker microservices with access to unlimited builder and runner resources.\n\nThis guided tour introduces Codenvy’s capabilities. It will take 3 minutes to complete.\n\nIf you need help contact us on our [https://groups.google.com/a/codenvy.com/forum/#!forum/codenvy Google Forum].  This temporary workspace will destroy your work if you become idle.  [https://codenvy.com/site/create-account Sign up for a free account] to save your work.",
+      "content": "Codenvy is a crazy fast, no-thrashing cloud IDE. Code, build, run and share projects from within your browser. Craft your finest code then command non-blocking, non-thrashing Docker microservices with access to (mostly) infinite resources to perform builds and runs.\n\nThis guided tour introduces Codenvy’s capabilities. It will take 3 minutes to complete.\n\nIf you need help contact us on our [https://groups.google.com/a/codenvy.com/forum/#!forum/codenvy Google Forum]. This is a temporary workspace. Your work will be lost if you are idle for 10 minutes. [https://codenvy.com/site/create-account Sign up for a free account] to save your work.",
       "element": "gwt-debug-MainToolbar/runApp-true",
       "placement": "BOTTOM",
       "xOffset": "200",
@@ -19,20 +19,38 @@
           "backgroundColor": "rgba(50,50,50,0.72)"
         },
         {
-          "url": "https://raw.githubusercontent.com/benoitf/tour-resources/master/build.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/build.png",
           "element": "gwt-debug-MainToolbar/runApp-true",
           "xOffset": "-32",
           "yOffset": "-2"
         },
         {
-          "url": "https://raw.githubusercontent.com/benoitf/tour-resources/master/help.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/help.png",
           "element": "gwt-debug-MainMenu/helpGroup-true"
         },
         {
-          "url": "https://raw.githubusercontent.com/benoitf/tour-resources/master/explorer.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/explorer.png",
           "element": "gwt-debug-tabButton-Datasource",
           "xOffset": "18",
           "yOffset": "-30"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/builder-runner.png",
+          "element": "gwt-debug-tabButton-Builder",
+          "xOffset": "0",
+          "yOffset": "-1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/ram.png",
+          "element": "memory-widget-panel",
+          "xOffset": "-264",
+          "yOffset": "-2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/visibility-permission.png",
+          "element": "gwt-debug-permissions-panel-rights",
+          "xOffset": "-263",
+          "yOffset": "-4"
         }
       ]
     },
@@ -67,13 +85,13 @@
       "xOffset": "-40",
       "actions": [
         {
-          "action": "openfile src/main/resources/db/hsqldb/initDB.sql"
+          "action": "openfile readme.md"
         }
       ]
     },
     {
       "title": "Edit the app",
-      "content": "The editor includes key bindings for emacs, vi, and sublime along with syntax highlighting, auto-complete, error warnings, quick-fix, code folding, and international keyboard support.\nTry it by replacing one of the names in the SQL file with your own name.  Use ‘ctrl+space’ to get completion on SQL statements. Save the file when you’re done and re-run the application to see your changes.",
+      "content": "The editor includes key bindings for emacs, vi, and sublime along with syntax highlighting, auto-complete, error warnings, quick-fix, code folding, and international keyboard support.   You can change keybindings in the Window -> Preferences.",
       "element": "gwt-debug-projectExplorerTree-panel",
       "placement": "LEFT",
       "width" : "250",
@@ -82,7 +100,7 @@
     },
     {
       "title": "See your Change",
-      "content": "Checking your change is as easy as re-running the app.  Now let’s check out the git integration.",
+      "content": "Testing your change is as easy as re-running the app.  Now let’s check out the git integration.",
       "element": "gwt-debug-MainToolbar/runApp-false",
       "placement": "BOTTOM",
       "xOffset": "-11",
@@ -90,7 +108,7 @@
     },
     {
       "title": "Git Integration",
-      "content": "Codenvy projects may have a local git or subversion repository. The git and svn plugins provide visual access to commands.  From this menu you can add to indexes, commit changes, pull and push - everything you’d want in one place!",
+      "content": "Codenvy projects may have a local git or subversion repository. The git and svn plugins provide visual access to commands.  From this menu you can add to indexes, commit changes, pull and push.",
       "element": "gwt-debug-MainMenu/git-true",
       "placement": "BOTTOM",
       "width" : "350",
@@ -106,7 +124,7 @@
     },
     {
       "title": "Import your Projects",
-      "content": "You can import your existing projects quickly and easily. Create a free account to get a named workspace with unlimited private projects, then link your Github credentials (or any of 15 other providers we support).\nWe’ll guide you through the sign-up and import, it’s easy.",
+      "content": "You can import projects from external locations. Create a free account to get a named workspace with unlimited private projects, then link your Github credentials (or any of 15 other providers we support).",
       "element": "gwt-debug-MainMenu/git-true",
       "placement": "BOTTOM",
       "xOffset": "200",
