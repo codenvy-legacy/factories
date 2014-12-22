@@ -1,4 +1,5 @@
 {
+  "name" : "Codenvy Getting Started Guided Tour v1.0",
   "hasWelcomeStep" : true,
   "steps": [
     {
