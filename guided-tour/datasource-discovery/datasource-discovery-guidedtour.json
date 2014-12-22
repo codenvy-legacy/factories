@@ -1,4 +1,5 @@
 {
+  "name" : "Datasource Discovery Guided Tour v1.0",
   "steps": [
     {
       "title": "Database Auto-Connection",
@@ -8,7 +9,7 @@
       "xOffset": "-10",
       "actions": [
         {
-          "action": "action runApp"
+          "action": "trigger runApp"
         }
       ]
     },
@@ -49,7 +50,7 @@
       "xOffset": "200",
       "yOffset": "-300",
       "width": "400"
-    }, 
+    },
     {
       "title": "Execute SQL Request",
       "content": "Select the SQL statement and hit “Execute Query” to process your request and see the pets and their owners in “Query Results” section.",
@@ -66,4 +67,3 @@
     }
   ]
 }
-

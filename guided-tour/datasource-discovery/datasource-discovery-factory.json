@@ -16,7 +16,7 @@
          ]
          ,
          "codenvyGuidedTour": [
-                "https://gist.githubusercontent.com/sunix/308f4998c58d7113ea97/raw/datasource-guided-tour"
+                "https://gist.githubusercontent.com/benoitf/07f342151d72f561ecd0/raw/ff6ef99a09759736d8d1f80eb1a85670d2096df4/datasource-discovery-guidedtour.json"
          ]
       },
       "description":"My First Factory - Pet Clinic, a sample Spring application"
@@ -32,7 +32,7 @@
       },
       "runners":{
         "/docker/mysqltomcat" : {
-          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/Dockerfile"
+          "location" : "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/datasource-discovery/Dockerfile"
         }
       }
    },
