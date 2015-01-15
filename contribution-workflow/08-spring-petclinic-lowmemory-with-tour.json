@@ -1,0 +1,60 @@
+{  
+   "project":{  
+      "name":"spring-petclinic",
+      "visibility":"public",
+      "builders":{  
+         "default":"maven"
+      },
+      "runners":{  
+         "configs":{  
+            "system:/java/web/tomcat7":{  
+               "ram":0,
+               "variables":{  
+ 
+               },
+               "options":{  
+ 
+               }
+            }
+         },
+         "default":"project:/docker/tomcat8"
+      },
+      "type":"maven",
+      "attributes":{  
+         "language":[  
+            "java"
+         ],
+         "contribute": [
+            "true"
+         ],
+         "codenvyGuidedTour": [
+                "https://gist.githubusercontent.com/sunix/ddd2a7bb4740722acaac/raw/1e5f98937df7d088adea0c5b769821e4b2d72c12/contribution-tour.json"
+         ]
+      },
+      "description":"My First Factory - Pet Clinic, a sample Spring application"
+   },
+   "source":{  
+      "project":{  
+         "location":"https://github.com/codenvy-demos/spring-petclinic",
+         "type":"git",
+         "parameters":{  
+            "branch":"master",
+            "keepVcs": "true"
+         }
+      },
+      "runners":{
+         "/docker/tomcat8" : {
+          "location" : "https://gist.githubusercontent.com/sunix/f97662056c576158e5f8/raw/0e6dd99f87b1bab989081f7f47b8da2f2469c85d/Dockerfile"
+        }  
+      }
+   },
+   "actions": {
+      "openFile":"src/main/java/org/springframework/samples/petclinic/web/PetController.java",
+      "action" : "action runApp"
+   },
+   "creator":{  
+      "name":"Sun TAN",
+      "email":"sun.tan@serli.com"
+   },
+   "v":"2.0"
+}
