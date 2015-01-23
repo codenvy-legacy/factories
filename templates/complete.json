@@ -1,0 +1,70 @@
+  {
+    "v":"2.1",
+     "project":{  
+        "name":"my-complete-example",
+        "description":"My Complete Factory",
+        "visibility":"public",
+        "builders":{  
+           "default":"maven"
+        },
+        "runners":{  
+           "configs":{  
+              "system:/java/web/tomcat7":{}
+           },
+           "default":"project:/docker/tomcat8"
+        },
+        "type":"maven",
+        "attributes":{
+           "language":[
+              "java"
+           ]
+           ,
+              "codenvyGuidedTour": [
+                  "https://gist.githubusercontent.com/benoitf/1e1c0268b2832a7d6921/raw/c7c0574c7e876ccfe5a41b9ceb37dd3934982f22/guidedtour.json"
+              ]      },
+        "description":"Sample Factory Guided Tour"
+     },
+     "source":{  
+        "project":{  
+           "location":"https://github.com/codenvy-templates/web-spring-java-simple",
+           "type":"git",
+           "parameters":{  
+              "branch":"3.1.0"
+           }
+        },
+        "runners":{
+           "/docker/tomcat8" : {
+            "location" : "https://gist.githubusercontent.com/benoitf/c99540171689d0235e9a/raw/1c42b6cecba3e928fdf116572ec113b98bfeddb8/Dockerfile"
+          }  
+        }
+     },
+"ide" : {  
+    "onProjectOpened" : {
+      "actions" : [
+ 
+      {  
+        "id" : "findReplace",
+        "properties" : {  
+          "replaceMode":"text_multipass",
+          "in" : "(pom\\.xml)",
+          "find" : "SpringDemo",
+          "replace" : "My Factory Spring Demo"
+        }
+      },
+  {
+        "id" : "openFile",
+        "properties" : {
+          "file" : "pom.xml"
+        }
+      },      
+ 
+      {  
+        "id":"runApp"
+      } ]
+   }
+   },     
+     "creator":{  
+        "name":"Codenvy Factory",
+        "email":"factories@codenvy.com"
+     }
+  }

@@ -1,0 +1,13 @@
+{
+  "v": "2.1",
+  "project": {
+    "name": "my-minimalistic-factory",
+    "description": "Minimalistic Template"
+  },
+  "source": {
+    "project": {
+      "location": "https://github.com/codenvy/sdk",
+      "type": "git"
+    }
+  }
+}
