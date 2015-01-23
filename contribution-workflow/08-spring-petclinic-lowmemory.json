@@ -1,30 +1,11 @@
 {
-  "project": {
-    "name": "spring-petclinic",
-    "description": "My First Factory - Pet Clinic, a sample Spring application",
-    "visibility": "public",
-    "builders": {
-      "default": "maven"
-    },
-    "runners": {
-      "configs": {
-        "system:/java/web/tomcat7": {
-          "options": {
-          },
-          "ram": 0,
-          "variables": {
-          }
+  "ide": {
+    "onProjectOpened": {
+      "actions": [
+        {
+          "properties": {},
+          "id": "runApp"
         }
-      },
-      "default": "project:/docker/tomcat8"
-    },
-    "type": "maven",
-    "attributes": {
-      "language": [
-        "java"
-      ],
-      "contribute": [
-        "true"
       ]
     }
   },
@@ -39,26 +20,41 @@
     },
     "runners": {
       "/docker/tomcat8": {
-        "parameters": {
-        },
+        "parameters": {},
         "location": "https://gist.githubusercontent.com/sunix/f97662056c576158e5f8/raw/0e6dd99f87b1bab989081f7f47b8da2f2469c85d/Dockerfile"
       }
     }
   },
-  "ide": {
-    "onProjectOpened": {
-      "actions": [
-        {
-          "properties": {
-          },
-          "id": "runApp"
+  "project": {
+    "name": "spring-petclinic",
+    "description": "My First Factory - Pet Clinic, a sample Spring application",
+    "visibility": "public",
+    "builders": {
+      "default": "maven"
+    },
+    "runners": {
+      "configs": {
+        "system:/java/web/tomcat7": {
+          "options": {},
+          "ram": 0,
+          "variables": {}
         }
+      },
+      "default": "project:/docker/tomcat8"
+    },
+    "type": "maven",
+    "attributes": {
+      "language": [
+        "java"
+      ],
+      "contribute": [
+        "github"
       ]
     }
   },
   "creator": {
-    "email": "sun.tan@serli.com",
-    "name": "Sun TAN"
+     "email": "sun.tan@serli.com",
+     "name": "Sun TAN"
   },
   "v": "2.1"
 }
