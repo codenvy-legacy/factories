@@ -1,0 +1,120 @@
+{
+  "name" : "Getting Started with Codenvy",
+  "hasWelcomeStep" : true,
+  "steps": [
+    {
+      "title": "Getting Started with Codenvy.",
+      "content": "Codenvy is a crazy fast, no-thrashing cloud IDE.  Craft your finest code then command Docker-based microservices to build, run and debug from anywhere.\n\nThis tour introduces Codenvy's Contribution flow.",
+      "element": "gwt-debug-MainToolbar/runApp-true",
+      "placement": "BOTTOM",
+      "xOffset": "200",
+      "yOffset": "100",
+      "width" : "400",
+      "skipButtonLabel": "No thanks",
+      "nextButtonLabel": "Start the tour !",
+      "overlays": [
+        {
+          "zIndex": "5",
+          "width": {"value": 100, "unit" : "%"},
+          "height": {"value": 100, "unit" : "%"},
+          "backgroundColor": "rgba(50,50,50,0.72)"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/build.png",
+          "element": "gwt-debug-MainToolbar/runApp-true",
+          "xOffset": "-32",
+          "yOffset": "-2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/help.png",
+          "element": "gwt-debug-MainMenu/helpGroup-true"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/explorer.png",
+          "element": "gwt-debug-tabButton-Datasource",
+          "xOffset": "18",
+          "yOffset": "-30"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/builder-runner.png",
+          "element": "gwt-debug-tabButton-Builder",
+          "xOffset": "0",
+          "yOffset": "-1"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/ram.png",
+          "element": "memory-widget-panel",
+          "xOffset": "-264",
+          "yOffset": "-2"
+        },
+        {
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/visibility-permission.png",
+          "element": "gwt-debug-permissions-panel-rights",
+          "xOffset": "-263",
+          "yOffset": "-4"
+        }
+      ]
+    },
+    {
+      "title": "Run the app",
+      "content": "Let’s start by running the app.  We simplify your work by building the application, downloading dependencies and configuring the app’s runner environment (including RAM and queues) automatically.",
+      "element": "gwt-debug-MainToolbar/runApp-true",
+      "placement": "BOTTOM",
+      "xOffset": "-11",
+      "yOffset": "-7",
+      "width": "300",
+      "actions": [
+        {
+          "action": "trigger runApp"
+        }
+      ]
+    },
+    {
+      "title": "Preview the app",
+      "content": "Codenvy launches a Docker container for each run. Docker containers are isolated processes with the software to run your code.  Your project’s code and artifacts are copied into the runner automatically.  When the runner has finished loading, the application preview URL will appear.  Clicking the URL will view the application in a new browser tab. Console applications will display output in the console panel.\nClick the URL here to see the application.",
+      "element": "gwt-debug-Application",
+      "width": "450",
+      "placement": "TOP",
+      "xOffset": "100",
+      "yOffset": "7",
+      "actions": [
+        {
+          "action": "openfile src/main/resources/messages/messages.properties"
+        }
+      ]
+    },
+    {
+      "title": "Edit the app",
+      "content": "The editor includes key bindings for emacs, vi, and sublime along with syntax highlighting, auto-complete, error warnings, quick-fix, code folding, and international keyboard support.   You can change keybindings in the Window -> Preferences.",
+      "element": "gwt-debug-projectExplorerTree-panel",
+      "placement": "LEFT",
+      "width" : "250",
+      "xOffset": "270",
+      "yOffset": "70"
+    },
+    {
+      "title": "See your change",
+      "content": "To test your change, re-run the project.",
+      "element": "gwt-debug-MainToolbar/runApp-false",
+      "placement": "BOTTOM",
+      "xOffset": "-11",
+      "yOffset": "-7",
+      "actions": [
+        {
+          "action": "opentab TOOLING.Pull Request"
+        }
+      ]
+    },
+    {
+      "title": "Make a pull request",
+      "content": "Codenvy creates a git branch, a GitHub fork, commit, and pull request.  The pull request will embed a link for reviewers to build and run your changes in another workspace.",
+      "element": "gwt-debug-tabButton-Pull Request",
+      "placement": "LEFT",
+      "width" : "350",
+      "yOffset": "60",
+      "xOffset": "-350",
+      "skipButton": false,
+      "nextButtonLabel": "Done"
+    }
+  ]
+}
