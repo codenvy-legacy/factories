@@ -4,14 +4,14 @@
   "steps": [
     {
       "title": "Getting Started with Codenvy",
-      "content": "Codenvy is a crazy fast, no-thrashing cloud IDE. Code, build, run and share projects from within your browser. Craft your finest code then command non-blocking, non-thrashing Docker microservices with access to (mostly) infinite resources to perform builds and runs.\n\nThis guided tour introduces Codenvy’s capabilities. It will take 3 minutes to complete.\n\nIf you need help contact us on our [https://groups.google.com/a/codenvy.com/forum/#!forum/codenvy Google Forum]. This is a temporary workspace. Your work will be lost if you are idle for 10 minutes. [https://codenvy.com/site/create-account Sign up for a free account] to save your work.",
+      "content": "Codenvy is a no-thrashing cloud IDE with horizontally-scallable Docker builder and runner microservices.\n\nThis tour takes 3 minutes.",
       "element": "gwt-debug-MainToolbar/runApp-true",
       "placement": "BOTTOM",
       "xOffset": "200",
       "yOffset": "100",
       "width" : "400",
-      "skipButtonLabel": "No thanks",
-      "nextButtonLabel": "Start the tour !",
+      "skipButtonLabel": "Skip",
+      "nextButtonLabel": "Start!",
       "overlays": [
         {
           "zIndex": "5",
@@ -56,8 +56,22 @@
       ]
     },
     {
+      "title": "Build the project",
+      "content": "Builders install dependencies, execute the build pipeline, and package artifacts. Builders for npm, maven, grunt and others are built-in.",
+      "element": "gwt-debug-MainToolbar/runApp-true",
+      "placement": "BOTTOM",
+      "xOffset": "-11",
+      "yOffset": "-7",
+      "width": "300",
+      "actions": [
+        {
+          "action": "trigger buildApp"
+        }
+      ]
+    },
+    {
       "title": "Run the app",
-      "content": "Let’s start by running the app.  We simplify your work by building the application, downloading dependencies and configuring the app’s runner environment (including RAM and queues) automatically.",
+      "content": "Your project executes within a Runner, which binds a Docker machine with the stack for your app. You can have many machines and customize them using Dockerfiles.",
       "element": "gwt-debug-MainToolbar/runApp-true",
       "placement": "BOTTOM",
       "xOffset": "-11",
@@ -71,19 +85,12 @@
     },
     {
       "title": "Preview the app",
-      "content": "Codenvy launches a Docker container for each run. Docker containers are isolated processes with the software to run your code.  Your project’s code and artifacts are copied into the runner automatically.  When the runner has finished loading, the application preview URL will appear.  Clicking the URL will view the application in a new browser tab. Console applications will display output in the console panel.\nClick the URL here to see the application.",
+      "content": "Each run creates an isolated Runner instance with its own RAM. Your project’s files and artifacts are copied into the Runner. Your application's URL appears after the machine is booted.",
       "element": "gwt-debug-Application",
       "width": "450",
       "placement": "TOP",
       "xOffset": "100",
-      "yOffset": "7"
-    },
-    {
-      "title": "Access the Terminal",
-      "content": "Every Codenvy runner has a terminal with root access. Try it by typing “top” to get a list of your running processes.",
-      "element": "gwt-debug-MainToolbar/shutdownApp-true",
-      "placement": "TOP",
-      "xOffset": "-40",
+      "yOffset": "7",
       "actions": [
         {
           "action": "openfile readme.md"
@@ -91,8 +98,8 @@
       ]
     },
     {
-      "title": "Edit the app",
-      "content": "The editor includes key bindings for emacs, vi, and sublime along with syntax highlighting, auto-complete, error warnings, quick-fix, code folding, and international keyboard support.   You can change keybindings in the Window -> Preferences.",
+      "title": "Edit files",
+      "content": "We embed CodeMirror and Orion editors with key bindings for emacs, vi, and sublime along with syntax highlighting, auto-complete, quick-fix, and code folding.",
       "element": "gwt-debug-projectExplorerTree-panel",
       "placement": "LEFT",
       "width" : "250",
@@ -100,16 +107,8 @@
       "yOffset": "70"
     },
     {
-      "title": "See your Change",
-      "content": "Testing your change is as easy as re-running the app.  Now let’s check out the git integration.",
-      "element": "gwt-debug-MainToolbar/runApp-false",
-      "placement": "BOTTOM",
-      "xOffset": "-11",
-      "yOffset": "-7"
-    },
-    {
-      "title": "Git Integration",
-      "content": "Codenvy projects may have a local git or subversion repository. The git and svn plugins provide visual access to commands.  From this menu you can add to indexes, commit changes, pull and push.",
+      "title": "Connect version control",
+      "content": "Your project may have a local git or subversion repo synchronized with a remote.",
       "element": "gwt-debug-MainMenu/git-true",
       "placement": "BOTTOM",
       "width" : "350",
@@ -117,15 +116,15 @@
       "yOffset": "-7"
     },
     {
-      "title": "Temporary Workspace",
-      "content": "This project has been created in a temporary workspace which has 512MB of RAM. Your project will be destroyed if you close the tab or become idle.  We’ll guide you through importing and sign-up.",
+      "title": "Temporary workspace",
+      "content": "This project is in a temporary workspace. Your work will be lost if you are idle.",
       "element": "gwt-debug-temporary-workspace-used-toolbar-button",
       "placement": "TOP",
       "xOffset": "-20"
     },
     {
-      "title": "Import your Projects",
-      "content": "You can import projects from external locations. Create a free account to get a named workspace with unlimited private projects, then link your Github credentials (or any of 15 other providers we support).",
+      "title": "Save your work",
+      "content": "Persist will copy your project into a permanent workspace. Create a free account to get unlimited IDE time, private projects, and storage.",
       "element": "gwt-debug-MainMenu/git-true",
       "placement": "BOTTOM",
       "xOffset": "200",
