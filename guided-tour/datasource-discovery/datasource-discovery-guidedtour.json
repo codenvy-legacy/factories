@@ -2,8 +2,8 @@
   "name" : "Datasource Discovery Guided Tour v1.0",
   "steps": [
     {
-      "title": "Database Auto-Connection",
-      "content": "When you run the app, the datasource plugin will check for a database in your runner. If one exists, it will be automatically connected.",
+      "title": "Detect embedded database",
+      "content": "If your runner has an embedded SQL database, we will detect it. A datasource connection will be created without configuration.",
       "element": "gwt-debug-MainToolbar/runApp-true",
       "placement": "BOTTOM",
       "xOffset": "-10",
@@ -14,15 +14,8 @@
       ]
     },
     {
-      "title": "We have launched the App",
-      "content": "Codenvy launches a <b>Docker</b> container for each run. Docker containers are isolated processes that contain the software to run your code.  Your project’s code and artifacts are copied into the runner automatically.  When the runner has finished loading, the application preview URL will appear.  <hr>Console applications will display output in the console panel.",
-      "element": "gwt-debug-Application",
-      "placement": "TOP",
-      "xOffset": "100"
-    },
-    {
-      "title": "Discover the Datasource",
-      "content": "Open the <b>Datasource Explorer</b> panel. <hr> Once the application is started, select <b>Runner-DS-spring-petclinic-...</b> to browse the connected database",
+      "title": "Browse the schema",
+      "content": "After the runner has booted, open the Datasource panel. You can navigate the database's tables an columns.",
       "element": "gwt-debug-tabButton-Datasource",
       "placement": "RIGHT",
       "yOffset": "60",
@@ -36,15 +29,15 @@
       ]
     },
     {
-      "title": "Explore the Database",
-      "content": "Explore the database’s tables and schema. We’ve opened the <b>requests.sql</b> file for you - you’ll use it in the next step to make a change.",
+      "title": "Edit SQL",
+      "content": "SQL files have a special purpose editor with auto-complete, SQL execution, and results view.",
       "element": "gwt-debug-datasourcePanel",
       "placement": "RIGHT",
       "yOffset": "100"
     },
     {
-      "title": "Create SQL Request",
-      "content": "In <b>requests.sql</b> add a request to get all entries from the <i>Pets</i> SQL table.  Add the following line to the end of the file: <hr> <b>SELECT * FROM petclinic.pets INNER JOIN petclinic.owners ON owner_id = owners.id</b> <hr> You can use <em>‘ctrl+space’</em> to get syntax-completion on SQL statements. Save the file when you’re done.",
+      "title": "Execute SQL command",
+      "content": "CTRL + ENTER on any SQL command will execute the command. CTRL + SPACE performs SQL auto-complete.",
       "element": "gwt-debug-editorPartStack-contentPanel",
       "placement": "BOTTOM",
       "xOffset": "200",
@@ -52,15 +45,8 @@
       "width": "400"
     },
     {
-      "title": "Execute SQL Request",
-      "content": "Select the SQL statement and hit “Execute Query” to process your request and see the pets and their owners in “Query Results” section.",
-      "element": "gwt-debug-dsExecuteButton",
-      "placement": "LEFT",
-      "width": "190"
-    },
-    {
-      "title": "Try Your Own Database",
-      "content": "You can add your own database by adding it to a Docker container (our docs discuss how to create custom Docker environments).  You will need a Codenvy account for this.",
+      "title": "Add external databases",
+      "content": "You can create datasources to external databases. We support Oracle, Microsoft, mysql, and PostgreSQL.",
       "element": "gwt-debug-MainMenu/datasourceMainMenu-true",
       "placement": "BOTTOM",
       "nextButtonLabel": "Done"
