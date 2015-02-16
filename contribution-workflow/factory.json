@@ -1,14 +1,5 @@
 {
-  "source": {
-    "project": {
-      "parameters": {
-        "branch": "master",
-        "keepVcs": "true"
-      },
-      "location": "https://github.com/Serli/codenvy-contribution-sample",
-      "type": "git"
-    }
-  },
+  "v": "2.1",
   "project": {
     "name": "console",
     "description": "A simple JAR project based on Maven.",
@@ -29,5 +20,30 @@
       ]
     }
   },
-  "v": "2.0"
+  "source": {
+    "project": {
+      "location": "https://github.com/Serli/codenvy-contribution-sample",
+      "type": "git",
+      "parameters": {
+        "branch": "master",
+        "keepVcs": "true"
+      }
+    }
+  },
+  "ide": {
+    "onProjectOpened": {
+      "actions": [
+        {
+          "id": "openFile",
+          "properties": {
+            "file": "README.md"
+          }
+        }
+      ]
+    }
+  },
+  "creator": {
+    "name": "Sun TAN",
+    "email": "sun.tan@serli.com"
+  }
 }
