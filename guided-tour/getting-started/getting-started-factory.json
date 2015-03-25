@@ -19,7 +19,7 @@
          ]
          ,
             "codenvyGuidedTour": [
-                "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/getting-started-guidedtour.json"
+                "https://gist.githubusercontent.com/benoitf/bc63d98c0c97631828c3/raw/879f8263afff030e164f9c62c719cbd421bcd7bb/guidedtour"
             ]      },
       "description":"Getting Started Guided Tour"
    },
