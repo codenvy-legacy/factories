@@ -16,7 +16,7 @@
          ]
          ,
             "codenvyGuidedTour": [
-                "https://gist.githubusercontent.com/benoitf/3e0120e79167243eda19/raw/3dd2db22cb9bc8b525b373c3ebd54e287f98b3d9/gistfile1.json"
+                "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/getting-started-guidedtour.json"
             ]      },
       "description":"Getting Started Guided Tour"
    },
@@ -24,6 +24,9 @@
       "project":{
          "location":"https://github.com/spring-projects/spring-petclinic.git",
          "type":"git",
+         mixinTypes: [
+                        "GuidedTour"
+                    ],
          "parameters":{
             "branch":"master"
          }
@@ -43,8 +46,7 @@
    },
    "creator":{
       "name":"Florent Benoit",
-      "email":"florent.benoit@serli.com",
-      "accountId":"accountya9vidwqbifhqd9p"
+      "email":"fbenoit@codenvy.com"
    },
    "v":"2.0"
 }
