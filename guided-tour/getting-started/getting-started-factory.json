@@ -6,6 +6,9 @@
       "builders":{
          "default":"maven"
       },
+      "mixinTypes": [
+                        "GuidedTour"
+                    ],
       "runners":{
         "default":"system:/java/web/tomcat7"
       },
@@ -24,9 +27,6 @@
       "project":{
          "location":"https://github.com/spring-projects/spring-petclinic.git",
          "type":"git",
-         "mixinTypes": [
-                        "GuidedTour"
-                    ],
          "parameters":{
             "branch":"master"
          }
