@@ -90,7 +90,7 @@
       "width": "450",
       "placement": "TOP",
       "xOffset": "100",
-      "yOffset": "7",
+      "yOffset": "167",
       "actions": [
         {
           "action": "openfile readme.md"
