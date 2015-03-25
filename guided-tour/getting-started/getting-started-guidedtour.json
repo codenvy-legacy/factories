@@ -1,13 +1,13 @@
 {
-  "name" : "Codenvy Getting Started Guided Tour v1.1",
+  "name" : "Codenvy Getting Started Guided Tour v1.2",
   "hasWelcomeStep" : true,
   "steps": [
     {
       "title": "Getting Started with Codenvy",
       "content": "Codenvy is a no-thrashing cloud IDE with horizontally-scallable Docker builder and runner microservices.\n\nThis tour takes 3 minutes.",
-      "element": "gwt-debug-MainToolbar/runApp-true",
+      "element": "gwt-debug-MainToolbar/New",
       "placement": "BOTTOM",
-      "xOffset": "200",
+      "xOffset": "500",
       "yOffset": "100",
       "width" : "400",
       "skipButtonLabel": "Skip",
@@ -20,9 +20,9 @@
           "backgroundColor": "rgba(50,50,50,0.72)"
         },
         {
-          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/build.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/3.8.0/execution-bar.png",
           "element": "gwt-debug-MainToolbar/runApp-true",
-          "xOffset": "-32",
+          "xOffset": "-60",
           "yOffset": "-2"
         },
         {
@@ -30,13 +30,13 @@
           "element": "gwt-debug-MainMenu/helpGroup-true"
         },
         {
-          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/explorer.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/3.8.0/explorer.png",
           "element": "gwt-debug-tabButton-Datasource",
           "xOffset": "18",
-          "yOffset": "-30"
+          "yOffset": "-58"
         },
         {
-          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/builder-runner.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/3.8.0/Builder-Runners.png",
           "element": "gwt-debug-tabButton-Builder",
           "xOffset": "0",
           "yOffset": "-1"
@@ -59,7 +59,7 @@
       "title": "Build the project",
       "content": "Builders install dependencies, execute the build pipeline, and package artifacts. Builders for npm, maven, grunt and others are built-in.",
       "element": "gwt-debug-MainToolbar/runApp-true",
-      "placement": "BOTTOM",
+      "placement": "LEFT",
       "xOffset": "-11",
       "yOffset": "-7",
       "width": "300",
@@ -73,8 +73,8 @@
       "title": "Run the app",
       "content": "Your project executes within a Runner, which binds a Docker machine with the stack for your app. You can have many machines and customize them using Dockerfiles.",
       "element": "gwt-debug-MainToolbar/runApp-true",
-      "placement": "BOTTOM",
-      "xOffset": "-11",
+      "placement": "LEFT",
+      "xOffset": "11",
       "yOffset": "-7",
       "width": "300",
       "actions": [
@@ -86,7 +86,7 @@
     {
       "title": "Preview the app",
       "content": "Each run creates an isolated Runner instance with its own RAM. Your project’s files and artifacts are copied into the Runner. Your application's URL appears after the machine is booted.",
-      "element": "gwt-debug-Application",
+      "element": "gwt-debug-Terminal-tab",
       "width": "450",
       "placement": "TOP",
       "xOffset": "100",
