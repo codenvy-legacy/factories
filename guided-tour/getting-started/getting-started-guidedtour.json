@@ -1,5 +1,5 @@
 {
-  "name" : "Codenvy Getting Started Guided Tour v1.2",
+  "name" : "Codenvy Getting Started Guided Tour v1.3",
   "hasWelcomeStep" : true,
   "steps": [
     {
@@ -20,10 +20,10 @@
           "backgroundColor": "rgba(50,50,50,0.72)"
         },
         {
-          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/3.8.0/execution-bar.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/3.9.0/execution-bar.png",
           "element": "gwt-debug-MainToolbar/runApp-true",
-          "xOffset": "-60",
-          "yOffset": "-2"
+          "xOffset": "-6",
+          "yOffset": "-1"
         },
         {
           "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/help.png",
@@ -48,9 +48,9 @@
           "yOffset": "-2"
         },
         {
-          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/visibility-permission.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/3.9.0/visibility-permission.png",
           "element": "gwt-debug-permissions-panel-rights",
-          "xOffset": "-263",
+          "xOffset": "-344",
           "yOffset": "-4"
         }
       ]
