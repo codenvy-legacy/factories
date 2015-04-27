@@ -42,7 +42,7 @@
           "yOffset": "-1"
         },
         {
-          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/ram.png",
+          "url": "https://raw.githubusercontent.com/codenvy/factories/factory-2.0/guided-tour/getting-started/images/3.9.0/ram.png",
           "element": "memory-widget-panel",
           "xOffset": "-264",
           "yOffset": "-2"
