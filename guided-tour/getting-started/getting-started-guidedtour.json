@@ -4,7 +4,7 @@
   "steps": [
     {
       "title": "Getting Started with Codenvy",
-      "content": "Codenvy is a no-thrashing cloud IDE with horizontally-scallable Docker builder and runner microservices.\n\nThis tour takes 3 minutes.",
+      "content": "Codenvy's on-demand developer environments are replicable, collaborative and constraint-free.\n\nThis tour takes 3 minutes.",
       "element": "gwt-debug-MainToolbar/New",
       "placement": "BOTTOM",
       "xOffset": "500",
