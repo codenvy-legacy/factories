@@ -1,0 +1,69 @@
+
+{
+  "v": "4.0",
+  "workspace": {
+    "commands": [
+    ],
+    "projects": [
+      {
+        "links": [],
+        "name": "Spring",
+        "attributes": {
+          "languageVersion": [
+            "1.6"
+          ],
+          "language": [
+            "java"
+          ]
+        },
+        "type": "maven",
+        "source": {
+          "location": "https://github.com/codenvy-templates/web-spring-java-simple.git",
+          "type": "git",
+          "parameters": {
+            "keepVcs": "false",
+            "branch": "3.1.0"
+          }
+        },
+        "modules": [],
+        "path": "/Spring",
+        "mixins": [
+          "git"
+        ],
+        "problems": []
+      }
+    ],
+    "defaultEnvName": "wss",
+    "name": "wss",
+    "attributes": {
+    },
+    "environments": {
+      "wss": {
+        "machineConfigs": [
+          {
+            "dev": true,
+            "limits": {
+              "memory": 2048
+            },
+            "source": {
+              "location": "http://dev.box.com/api/recipe/recipe_ubuntu/script",
+              "type": "recipe"
+            },
+            "name": "dev-machine",
+            "type": "docker"
+          }
+        ],
+        "name": "wss"
+      }
+    },
+    "links": [
+    ]
+  },
+  "links": [
+  ],
+  "name": "My Complete Template",
+  "creator": {
+    "name": "Codenvy Factory",
+    "email": "factories@codenvy.com"
+  }
+}
