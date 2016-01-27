@@ -46,7 +46,7 @@
               "memory": 2048
             },
             "source": {
-              "location": "http://dev.box.com/api/recipe/recipe_ubuntu/script",
+              "location": "https://dockerfiles.codenvycorp.com/templates-4.0/factory/factory-dockerfile",
               "type": "recipe"
             },
             "name": "dev-machine",
