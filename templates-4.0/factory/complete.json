@@ -33,17 +33,17 @@
         "problems": []
       }
     ],
-    "defaultEnvName": "wss",
+    "defaultEnv": "wss",
     "name": "wss",
     "attributes": {
     },
-    "environments": {
-      "wss": {
+    "environments": [
+      {
         "machineConfigs": [
           {
             "dev": true,
             "limits": {
-              "memory": 2048
+              "ram": 2048
             },
             "source": {
               "location": "https://dockerfiles.codenvycorp.com/templates-4.0/factory/factory-dockerfile",
@@ -55,7 +55,7 @@
         ],
         "name": "wss"
       }
-    },
+    ],
     "links": [
     ]
   },
