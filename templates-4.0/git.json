@@ -1,0 +1,44 @@
+{
+"v": "4.0",
+"workspace": {
+"projects": [
+{
+"links": [],
+"name": "my-project",
+"type": "blank",
+"source": {
+"location": "https://github.com/myrepository",
+"type": "git"
+},
+"modules": [],
+"path": "/my-project",
+"mixins": [
+"git"
+],
+"problems": []
+}
+],
+"defaultEnvName": "wss",
+"name": "wss",
+"environments": {
+"wss": {
+"machineConfigs": [
+{
+"dev": true,
+"limits": {
+"memory": 2048
+},
+"source": {
+"location": "https://dockerfiles.codenvycorp.com/templates-4.0/factory/factory-dockerfile",
+"type": "recipe"
+},
+"name": "dev-machine",
+"type": "docker"
+}
+],
+"name": "wss"
+}
+},
+"links": []
+}
+}
