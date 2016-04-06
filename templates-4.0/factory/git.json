@@ -26,7 +26,7 @@
           {
             "dev": true,
             "limits": {
-              "ram": 2048
+              "ram": 2000
             },
             "source": {
               "location": "https://dockerfiles.codenvycorp.com/templates-4.0/factory/factory-dockerfile",
