@@ -30,7 +30,7 @@
             },
             "source": {
               "location": "https://dockerfiles.codenvycorp.com/templates-4.0/factory/factory-dockerfile",
-              "type": "recipe"
+              "type": "dockerfile"
             },
             "name": "dev-machine",
             "type": "docker"
