@@ -3,3 +3,12 @@ generated/
 scripts/setup.bat
 java/target/
 jsons/
+
+# OS generated files #
+######################
+.DS_Store
+ehthumbs.db
+Icon?
+Thumbs.db
+*/overlays
+*~
