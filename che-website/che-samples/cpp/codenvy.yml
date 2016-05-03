@@ -1,0 +1,5 @@
+name: C++
+desc: GitHub console app; GCC; Make
+project: https://github.com/che-samples/console-cpp-simple.git
+website:
+factory: http://beta.codenvy.com/f?id=21w2nx87yto2xi1z

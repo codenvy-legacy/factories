@@ -1,0 +1,5 @@
+name: Elasticsearch
+desc: Open Source, Distributed, RESTful Search Engine
+project: https://github.com/elastic/elasticsearch
+website: https://www.elastic.co/products/elasticsearch
+factory: http://beta.codenvy.com/f?id=7pabc2kl40gb6yep

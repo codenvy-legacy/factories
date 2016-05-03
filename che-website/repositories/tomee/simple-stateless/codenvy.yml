@@ -1,0 +1,5 @@
+name: TomEE
+desc: Simple Stateless Example
+project: https://github.com/apache/tomee
+website: http://tomee.apache.org
+factory: http://beta.codenvy.com/f?id=lemf30nh52rvsx42

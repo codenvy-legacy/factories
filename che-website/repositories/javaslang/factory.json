@@ -1,0 +1,111 @@
+{
+  "v" : "4.0" ,
+  "name" : "javaslang" ,
+  "workspace" : {
+    "environments" : [
+      {
+        "name" : "javaslang" ,
+        "machineConfigs" : [
+          {
+            "limits" : {
+              "ram" : 2000
+            } ,
+            "name" : "ws-machine" ,
+            "type" : "docker" ,
+            "source" : {
+              "location" : "https://dockerfiles.codenvycorp.com/che-website/repositories/javaslang/Dockerfile" ,
+              "type" : "recipe"
+            } ,
+            "dev" : true ,
+            "servers" : [ ] ,
+            "envVariables" : { } ,
+            "links" : [ ]
+          }
+        ]
+      }
+    ] ,
+    "defaultEnv" : "javaslang" ,
+    "projects" : [
+      {
+        "links" : [ ] ,
+        "name" : "javaslang" ,
+        "attributes" : { } ,
+        "type" : "maven" ,
+        "source" : {
+          "location" : "https://github.com/javaslang/javaslang" ,
+          "type" : "git" ,
+          "parameters" : { }
+        } ,
+        "path" : "/javaslang" ,
+        "problems" : [ ] ,
+        "mixins" : [
+          "git"
+        ]
+      }
+    ] ,
+    "name" : "javaslang" ,
+    "commands" : [
+      {
+        "commandLine" : "cd /projects/javaslang && mvn clean test" ,
+        "name" : "run tests" ,
+        "attributes" : {
+          "previewUrl" : ""
+        } ,
+        "type" : "custom"
+      } ,
+      {
+        "commandLine" : "cd /projects/javaslang && mvn javadoc:javadoc" ,
+        "name" : "run doclint" ,
+        "attributes" : {
+          "previewUrl" : ""
+        } ,
+        "type" : "custom"
+      } ,
+      {
+        "commandLine" : "cd /projects/javaslang && mvn -P ci clean test jacoco:report" ,
+        "name" : "run code coverage report" ,
+        "attributes" : {
+          "previewUrl" : ""
+        } ,
+        "type" : "custom"
+      } ,
+      {
+        "commandLine" : "cd /projects/javaslang && mvn source:jar" ,
+        "name" : "create source.jar" ,
+        "attributes" : {
+          "previewUrl" : ""
+        } ,
+        "type" : "custom"
+      } ,
+      {
+        "commandLine" : "cd /projects/javaslang && mvn versions:update-properties" ,
+        "name" : "update version properties" ,
+        "attributes" : {
+          "previewUrl" : ""
+        } ,
+        "type" : "custom"
+      } ,
+      {
+        "commandLine" : "cd /projects/javaslang && mvn versions:display-plugin-updates" ,
+        "name" : "check for new plugin version" ,
+        "attributes" : {
+          "previewUrl" : ""
+        } ,
+        "type" : "custom"
+      }
+    ] ,
+    "links" : [ ]
+  } ,
+  "ide" : {
+    "onProjectsLoaded" : {
+      "actions" : [
+        {
+          "properties" : {
+            "file" : "/javaslang/README.md"
+          } ,
+          "id" : "openFile"
+        }
+      ]
+    }
+  }
+}
