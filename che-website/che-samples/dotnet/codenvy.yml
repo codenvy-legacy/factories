@@ -1,0 +1,5 @@
+name: .NET
+desc: GitHub console app; Mono
+project: https://github.com/che-samples/console-dotnet-simple
+website:
+factory: http://beta.codenvy.com/f?id=mo97t9pkaijr7q1c

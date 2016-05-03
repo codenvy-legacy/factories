@@ -1,0 +1,5 @@
+name: Spring
+desc: GitHub PetClinic web app; Java8; Maven
+project: https://github.com/che-samples/web-java-spring-petclinic.git
+website:
+factory: http://beta.codenvy.com/f?id=r6p0l1sfnwm99k94

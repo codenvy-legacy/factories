@@ -1,0 +1,5 @@
+name: Java + Gradle
+desc: GitHub console app; Java8; Gradle
+project: https://github.com/che-samples/console-java-gradle.git
+website:
+factory: http://beta.codenvy.com/f?id=5use7stej9bi9mxd

@@ -1,0 +1,5 @@
+name: Wildfly
+desc: GitHub web app; Java8; Maven; Wildfly 8.2
+project: https://github.com/che-samples/web-java-wildfly.git
+website:
+factory: http://beta.codenvy.com/f?id=gbfcsdb76f2iy1f2
