@@ -12,3 +12,7 @@ Icon?
 Thumbs.db
 */overlays
 *~
+*.iml
+.eclipse
+.classpath
+.idea

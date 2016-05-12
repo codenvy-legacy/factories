@@ -1,0 +1,8 @@
+name: ASP.NET
+desc: Hello world web app on Linux with Mono
+project: https://github.com/che-samples/web-aspnet-simple
+website:
+factory: http://beta.codenvy.com/f?id=m9ylnmjtmzvmq99i
+category: che samples
+languages:
+   - asp.net

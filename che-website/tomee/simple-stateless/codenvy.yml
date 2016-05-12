@@ -1,0 +1,8 @@
+name: TomEE
+desc: Stateless Java bean sample app
+project: https://github.com/apache/tomee
+website: http://tomee.apache.org
+factory: http://beta.codenvy.com/f?id=lemf30nh52rvsx42
+category: samples
+languages:
+   - java

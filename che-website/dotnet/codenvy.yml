@@ -1,0 +1,8 @@
+name: .NET
+desc: Hello world console app on Linux with Mono
+project: https://github.com/che-samples/console-dotnet-simple
+website:
+factory: http://beta.codenvy.com/f?id=mo97t9pkaijr7q1c
+category: che samples
+languages:
+   - .net

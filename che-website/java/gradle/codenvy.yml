@@ -1,0 +1,8 @@
+name: Java + Gradle
+desc: Hello world console app with auto-build and run
+project: https://github.com/che-samples/console-java-gradle.git
+website:
+factory: http://beta.codenvy.com/f?id=5use7stej9bi9mxd
+category: che samples
+languages:
+   - java

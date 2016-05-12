@@ -1,0 +1,8 @@
+name: ISTEX
+desc: API mock for the French digital scientific library
+project: https://github.com/istex/istex-api-faker
+website: http://www.istex.fr
+factory: http://beta.codenvy.com/f?id=ir9mnlkdt6hxm0z9
+category: framework
+languages:
+   - javascript

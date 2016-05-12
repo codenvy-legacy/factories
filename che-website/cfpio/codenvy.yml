@@ -1,0 +1,9 @@
+name: cfp.io
+desc: Simplify requesting papers for conferences
+project: https://github.com/cfpio/callForPaper
+website: http://www.cfp.io
+factory: http://beta.codenvy.com/f?id=tdwv5klhq3zcuowr
+category: framework
+languages:
+   - java
+   - javascript

@@ -1,5 +1,0 @@
-name: Java + Maven
-desc: GitHub web app; Java 8; Maven
-project: https://github.com/che-samples/console-java-simple.git
-website:
-factory: http://beta.codenvy.com/f?id=omriatu352kkthua

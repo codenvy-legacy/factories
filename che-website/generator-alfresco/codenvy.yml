@@ -1,0 +1,8 @@
+name: Generator Alfresco
+desc: A Yeoman generator for Open-source content management
+project: https://github.com/binduwavell/generator-alfresco
+website: http://www.alfresco.com/
+factory: http://beta.codenvy.com/f?id=zia672875qiibfzv
+category: framework
+languages:
+   - javascript

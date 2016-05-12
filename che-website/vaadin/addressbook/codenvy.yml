@@ -1,0 +1,8 @@
+name: Vaadin
+desc: Official address book UI demo
+project: https://github.com/vaadin/addressbook
+website: https://vaadin.com/home
+factory: http://beta.codenvy.com/f?id=ej6koycnt4maubns
+category: samples
+languages:
+   - java
