@@ -1,5 +1,0 @@
-name: Spring Boot
-desc: GitHub console app; Java 8; Maven
-project: https://github.com/che-samples/web-java-spring-boot.git
-website:
-factory: http://beta.codenvy.com/f?id=sz7uzyofb8olekkn

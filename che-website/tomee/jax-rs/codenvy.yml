@@ -1,0 +1,8 @@
+name: TomEE
+desc: JAX-RS and Angular web app sample
+project: https://github.com/tomitribe/tomee-jaxrs-angular-starter-project.git
+website: http://www.tomitribe.com/
+factory: http://beta.codenvy.com/f?id=07xzbw8pq5wn02y5
+category: samples
+languages:
+   - java

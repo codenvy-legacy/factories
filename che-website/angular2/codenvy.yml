@@ -1,0 +1,8 @@
+name: Angular 2
+desc: Official Angular2 quick start tutorial
+project: https://github.com/angular/quickstart
+website: https://angular.io/docs/ts/latest/quickstart.html
+factory: http://beta.codenvy.com/f?id=2i2ikikl4kif87l9
+category: tutorial
+languages:
+  - javascript

@@ -1,0 +1,9 @@
+name: Vert.x verticle
+desc: Example web app for reactive applications on the JVM
+project: https://github.com/vert-x3/vertx-examples
+website: http://vertx.io/
+factory: http://beta.codenvy.com/f?id=9skz1321dxbqpj5j
+category: samples
+languages:
+  - java
+badgeLink: https://github.com/vert-x3/vertx-examples

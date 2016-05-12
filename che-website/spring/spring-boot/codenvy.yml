@@ -1,0 +1,8 @@
+name: Spring Boot
+desc: Java web app example for rapid development
+project: https://github.com/che-samples/web-java-spring-boot.git
+website:
+factory: http://beta.codenvy.com/f?id=sz7uzyofb8olekkn
+category: che samples
+languages:
+   - java

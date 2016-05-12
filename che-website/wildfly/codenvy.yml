@@ -1,0 +1,8 @@
+name: Wildfly
+desc: Java hello world web app example
+project: https://github.com/che-samples/web-java-wildfly.git
+website:
+factory: http://beta.codenvy.com/f?id=gbfcsdb76f2iy1f2
+category: che samples
+languages:
+   - java

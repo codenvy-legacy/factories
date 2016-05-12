@@ -1,0 +1,8 @@
+name: TomEE
+desc: Moviefun Java sample app
+project: https://github.com/apache/tomee
+website: http://tomee.apache.org
+factory: http://beta.codenvy.com/f?id=suloomuf7cvcfghn
+category: samples
+languages:
+   - java

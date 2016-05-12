@@ -1,0 +1,8 @@
+name: Java + Maven
+desc: Hello world console app with auto-build and run
+project: https://github.com/che-samples/console-java-simple.git
+website:
+factory: http://beta.codenvy.com/f?id=omriatu352kkthua
+category: che samples
+languages:
+   - java

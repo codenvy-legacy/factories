@@ -1,0 +1,8 @@
+name: PHP
+desc: Hello world web app with auto-build and run
+project: https://github.com/che-samples/web-php-simple.git
+website:
+factory: http://beta.codenvy.com/f?id=5ayat0naxlljn3p2
+category: che samples
+languages:
+   - php
