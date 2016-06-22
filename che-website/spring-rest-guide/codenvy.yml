@@ -6,3 +6,4 @@ factory: http://beta.codenvy.com/f?id=9fq0busbm3tz7i8c
 category: tutorial
 languages:
    - java
+badgeLink: https://github.com/spring-guides/gs-rest-service

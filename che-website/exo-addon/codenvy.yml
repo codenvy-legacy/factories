@@ -1,0 +1,9 @@
+name: eXo Task add-on
+desc: Tasks management add-on
+project: https://github.com/exoplatform/task
+website: https://www.exoplatform.com
+factory: http://beta.codenvy.com/f?id=vu1kgww8udkbd6ie
+category: samples
+languages:
+  - java
+badgeLink: https://github.com/exoplatform/task
