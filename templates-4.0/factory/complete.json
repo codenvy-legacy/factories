@@ -51,7 +51,7 @@
           }
         },
         "recipe": {
-          "content": "codenvy/ubuntu_jdk8",
+          "location": "codenvy/ubuntu_jdk8",
           "type": "dockerimage"
         }
       }
