@@ -3,7 +3,6 @@
   "workspace": {
     "projects": [
       {
-        "links": [],
         "name": "Spring",
         "attributes": {
           "languageVersion": [
@@ -32,26 +31,24 @@
     ],
     "defaultEnv": "wss",
     "name": "wss",
-    "environments": [
-      {
-        "machineConfigs": [
-          {
-            "dev": true,
-            "limits": {
-              "ram": 2048
-            },
-            "source": {
-              "location": "https://dockerfiles.codenvycorp.com/templates-4.0/factory/factory-dockerfile",
-              "type": "dockerfile"
-            },
-            "name": "dev-machine",
-            "type": "docker"
+    "environments": {
+      "wss" : {
+        "machines": {
+          "dev-machine": {
+            "agents": [
+              "ws-agent"
+            ],
+            "servers": {},
+            "attributes" : {
+              "memoryLimitBytes": "2147483648"
+            }
           }
-        ],
-        "name": "wss"
+        },
+        "recipe": {
+          "location": "codenvy/ubuntu_jdk8",
+          "type": "dockerimage"
+        }
       }
-    ],
-    "links": [
-    ]
+    }
   }
 }
