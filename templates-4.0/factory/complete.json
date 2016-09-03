@@ -1,3 +1,4 @@
+
 {
   "v": "4.0",
   "workspace": {
@@ -5,6 +6,7 @@
     ],
     "projects": [
       {
+        "links": [],
         "name": "Spring",
         "attributes": {
           "languageVersion": [
@@ -35,26 +37,30 @@
     "name": "wss",
     "attributes": {
     },
-    "environments": {
-      "wss" : {
-        "machines": {
-          "dev-machine": {
-            "agents": [
-              "ws-agent"
-            ],
-            "servers": {},
-            "attributes" : {
-              "memoryLimitBytes": "2147483648"
-            }
+    "environments": [
+      {
+        "machineConfigs": [
+          {
+            "dev": true,
+            "limits": {
+              "ram": 2048
+            },
+            "source": {
+              "location": "https://dockerfiles.codenvycorp.com/templates-4.0/factory/factory-dockerfile",
+              "type": "dockerfile"
+            },
+            "name": "dev-machine",
+            "type": "docker"
           }
-        },
-        "recipe": {
-          "location": "codenvy/ubuntu_jdk8",
-          "type": "dockerimage"
-        }
+        ],
+        "name": "wss"
       }
-    }
+    ],
+    "links": [
+    ]
   },
+  "links": [
+  ],
   "name": "My Complete Template",
   "creator": {
     "name": "Codenvy Factory",
