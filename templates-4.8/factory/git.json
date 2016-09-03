@@ -1,0 +1,41 @@
+{
+  "v": "4.0",
+  "workspace": {
+    "projects": [
+      {
+        "name": "my-project",
+        "type": "blank",
+        "source": {
+          "location": "http://git-project",
+          "type": "git"
+        },
+        "modules": [],
+        "path": "/my-project",
+        "mixins": [
+          "git"
+        ],
+        "problems": []
+      }
+    ],
+    "defaultEnv": "wss",
+    "name": "wss",
+    "environments": {
+      "wss" : {
+        "machines": {
+          "dev-machine": {
+            "agents": [
+              "ws-agent"
+            ],
+            "servers": {},
+            "attributes" : {
+              "memoryLimitBytes": "2147483648"
+            }
+        },
+        "recipe": {
+          "location": "codenvy/ubuntu_jdk8",
+          "type": "dockerimage"
+        }
+      }
+    }
+  }
+}
