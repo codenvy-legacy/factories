@@ -20,20 +20,23 @@
     "defaultEnv": "wss",
     "name": "wss",
     "environments": {
-      "wss" : {
+      "wss": {
         "machines": {
           "dev-machine": {
             "agents": [
-              "org.eclipse.che.terminal", "org.eclipse.che.ws-agent", "org.eclipse.che.ssh"
+              "org.eclipse.che.terminal",
+              "org.eclipse.che.ws-agent",
+              "org.eclipse.che.ssh"
             ],
             "servers": {},
-            "attributes" : {
+            "attributes": {
               "memoryLimitBytes": "2147483648"
             }
-        },
-        "recipe": {
-          "location": "codenvy/ubuntu_jdk8",
-          "type": "dockerimage"
+          },
+          "recipe": {
+            "location": "codenvy/ubuntu_jdk8",
+            "type": "dockerimage"
+          }
         }
       }
     }
